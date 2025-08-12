@@ -32,6 +32,12 @@ ALPI=<size\=100\>阿爾卑斯
 ALPIN=<size\=100\>阿爾卑斯山
 ALPINE=<size\=100\>阿爾卑斯山脈</size>\n<size\=40\>(極寒之巔)</size>
 
+##沙漠##
+M=<size\=100\>台
+ME=<size\=100\>台
+MES=<size\=100\>台地
+MESA=<size\=100\>台地</size>\n<size\=40\>(烈日下沙地)</size>
+
 ##大型火鍋##
 C=<size\=100\>炎
 CA=<size\=100\>炎

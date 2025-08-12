@@ -5,6 +5,8 @@ GENERAL=一般
 BACK=返回
 
 LANGUAGE=語言
+English=English (繁中翻譯請選擇這個)
+简体中文=简体中文 (繁中翻譯請選擇English)
 FIELD OF VIEW=視野範圍
 MOUSE SENSITIVITY=滑鼠靈敏度
 CONTROLLER SENSITIVITY=手把靈敏度
@@ -14,6 +16,8 @@ r:"^STYLE (.+)$"=風格$1
 INVERT Y=反轉 Y 軸
 INVERT X=反轉 X 軸
 REDUCE CAMERA BOBBING=減少鏡頭晃動
+CLIMBING EXTRA FIELD OF VIEW=攀山時更大視野範圍
+THIS SETTING CAN ONLY BE ADJUSTED ON THE MAIN MENU.=該設定只能在主選單的設定更改
 
 OFF=關閉
 ON=開啟
@@ -22,6 +26,9 @@ LOBBY MODE=大廳模式
 FRIENDS=所有好友
 INVITE ONLY=僅限邀請
 
+ACCESSIBILITY=輔助功能
+ENABLE CANNIBALISM=啟用同類相食
+BUG PHOBIA MODE=蟲子去去走！
 
 #圖形#
 GRAPHICS=圖形

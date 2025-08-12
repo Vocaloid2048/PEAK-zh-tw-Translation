@@ -47,6 +47,15 @@ LOADING...LOADING...LOADING...LOADING=載入中...載入中...載入中...載入
 LOADING...LOADING...LOADING...LOADING.=載入中...載入中...載入中...載入中.
 LOADING...LOADING...LOADING...LOADING..=載入中...載入中...載入中...載入中..
 LOADING...LOADING...LOADING...LOADING...=載入中...載入中...載入中...載入中...
+LOADING...LOADING...LOADING...LOADING...L=載入中...載入中...載入中...載入中...載
+LOADING...LOADING...LOADING...LOADING...LO=載入中...載入中...載入中...載入中...載入
+LOADING...LOADING...LOADING...LOADING...LOA=載入中...載入中...載入中...載入中...載入中
+LOADING...LOADING...LOADING...LOADING...LOAD=載入中...載入中...載入中...載入中...載入中
+LOADING...LOADING...LOADING...LOADING...LOADI=載入中...載入中...載入中...載入中...載入中
+LOADING...LOADING...LOADING...LOADING...LOADIN=載入中...載入中...載入中...載入中...載入中
+LOADING...LOADING...LOADING...LOADING...LOADING=載入中...載入中...載入中...載入中...載入中.
+LOADING...LOADING...LOADING...LOADING...LOADING=載入中...載入中...載入中...載入中...載入中..
+LOADING...LOADING...LOADING...LOADING...LOADING=載入中...載入中...載入中...載入中...載入中...
 
 D=第
 DA=第

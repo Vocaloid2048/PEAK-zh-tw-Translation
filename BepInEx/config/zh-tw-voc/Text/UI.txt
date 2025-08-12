@@ -113,6 +113,10 @@ tie down=綁在身上
 LOC: TIE DOWN=綁在身上
 spray=噴灑
 LOC: SPRAY=噴灑
+adjust angle=調整角度
+FUSE=導火線
+THORN=荊棘
+remove=拔走它
 
 r:"^(.+)'s backpack$"=$1的背包
 r:"^carry (.+)$"=背起$1

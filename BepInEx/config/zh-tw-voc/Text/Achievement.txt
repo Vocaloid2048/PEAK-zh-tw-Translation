@@ -38,6 +38,18 @@ Escape the island without taking fall damage.=不受到墜落傷害下逃離島�
 Read all of Scoutmaster Myres's journal entries.=閱讀童軍領袖邁爾斯的所有日誌。
 Escape the island without placing anything on the mountain.=山上不遺留任何物品下逃離島嶼。
 Climb 50m upwards without touching the ground.=不觸碰地面連續向上攀爬50公尺。
+Have a lot of cactuses stuck to you.=身上黏著很多仙人掌。
+Climb past the MESA.=攀越「台地」。
+Offer The Kiln a worthy sacrifice.=向「岩漿窯洞」獻上值得的祭品。
+Achieve flight.=實現飛行。
+Look a little too closely at the blazing sun.=過於仔細地觀察炙熱的太陽。
+Escape the island without taking fall damage.=不受到墜落傷害下逃離島嶼。
+Climb past the MESA without ever having more than 10% Heat.=在不超過10%熱量的情況下攀越「台地」。
+Shoot across the MESA canyon in a Scout Cannon.=在童軍炮中穿越「台地」峽谷。
+Survive an Antlion attack.=在蟻獅攻擊中生存下來。
+Give in to your hunger.=屈從於你的飢餓。
+Catch a Flying Disc from 100m away.=從100公尺外接住飛碟。
+
 
 ##徽章##
 Beachcomber Badge=海岸探險者徽章
@@ -104,6 +116,28 @@ Gourmand Badge=美食家徽章
 GOURMAND BADGE=美食家徽章
 Bookworm Badge=書蟲徽章
 BOOKWORM BADGE=書蟲徽章
+Needlepoint Badge=針繡徽章
+NEEDLEPOINT BADGE=針繡徽章
+Nomad Badge=遊牧徽章
+NOMAD BADGE=遊牧徽章
+24 Karat Badge=24K徽章
+24 KARAT BADGE=24K徽章
+Aeronautics Badge=航空徽章
+AERONAUTICS BADGE=航空徽章
+Astronomy Badge=天文學徽章
+ASTRONOMY BADGE=天文學徽章
+Balloon Badge=氣球徽章
+BALLOON BADGE=氣球徽章
+Cool Cucumber Badge=酷黃瓜徽章
+COOL CUCUMBER BADGE=酷黃瓜徽章
+Daredevil Badge=大膽冒險者徽章
+DAREDEVIL BADGE=大膽冒險者徽章
+Megaentomology Badge=巨型昆蟲學徽章
+MEGAENTOLOGY BADGE=巨型昆蟲學徽章
+Resourcefulness Badge=足智多謀徽章
+RESOURCEFULNESS BADGE=足智多謀徽章
+Ultimate Badge=終極徽章
+ULTIMATE BADGE=終極徽章
 
 ##階級##
 Tadpole Scout=蝌蚪童軍
