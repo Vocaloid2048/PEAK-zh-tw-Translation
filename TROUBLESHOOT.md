@@ -9,6 +9,16 @@
 **請先加入Discord伺服器**，然後在私信我：`vocaloid2048`<br>
 **直接説問題就好！不要只加好友，很大程度會被當作釣魚**
 
+## 熱門問題
+### 設定頁選項沒有展示中文字！
+- 已知在v1.22.a出現
+- 目前無解，甚至在不啟動模組下，使用官方的簡體中文翻譯也是沒有展示中文字
+- 惟有先等待官方更新
+
+|原版啟動|Mod Manager啟動|
+|---|---|
+|![alt text](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/troubleshoot/img_setting_no_zh_font.png)|![alt text](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/troubleshoot/img_setting_with_mod.png)|
+
 ## Mod Manager 啟動相關問題
 
 ### `BepInEx preloader not found`

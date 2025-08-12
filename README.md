@@ -1,8 +1,10 @@
 ![PEAK_ZH_TW_LOGO](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/Logo.png)
 # PEAK 繁體中文翻譯模組 by Voc-夜芷冰
-![version](https://img.shields.io/badge/Version-1.0.9-pink)
-![PEAK version](https://img.shields.io/badge/PEAK-1.9.a-orange)
+![version](https://img.shields.io/badge/Version-1.0.10-pink)
+![PEAK version](https://img.shields.io/badge/PEAK-1.22.a-orange)
+<!---
 ![PEAK version](https://img.shields.io/badge/BETA-0.9.a-purple)
+-->
 ![make-with-love](https://camo.githubusercontent.com/da124fe0d303f3da8682918930b2f99caf16cda69474c01b4c48598d38f71613/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d616b655f776974685f2545322539442541342545462542382538462d7768697465)
 [![wakatime](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/97d38b2f-ce2b-418e-9492-9f3687c2bf1a.svg)](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/97d38b2f-ce2b-418e-9492-9f3687c2bf1a)
 
@@ -12,6 +14,11 @@
 - 本模組由 `Coding Band` 的 Voc-夜芷冰 基於 [PEAK Russian Translation](https://thunderstore.io/c/peak/p/RTLC/PEAK_Russian_Translation/) 製作，目前僅在 [Thunderstore](https://thunderstore.io/c/peak/p/Vocaloid2048/PEAK_Traditional_Chinese_Translation/) 和 [GitHub](https://github.com/Vocaloid2048/PEAK-zh-tw-Translation) 發佈
 - 【這是社群項目】歡迎各位對翻譯提供建議/協助~ [詳情在這邊](#️翻譯有問題-也想幫忙添加翻譯)
 - 十分感謝[狐空](#狐空-xof_elttil)大大的協助，簡化TPM、替代字體相關設定，玩家現無需額外設定替代用字體亦可以使用
+
+## ⚠️已知問題
+- 設定頁選項沒有展示中文字！（應為官方問題）
+- 詳情請看[Troubleshoot](https://github.com/Vocaloid2048/PEAK-zh-tw-Translation/blob/main/TROUBLESHOOT.md#設定頁選項沒有展示中文字！)
+- [Discord Bug Report Ticket](https://discord.com/channels/1368870708335083650/1404799565298667611)
 
 ## 🚧請留意！
 - 本模組並非官方製作，部分内容由AI輔助翻譯，或有文法錯漏！<br>
