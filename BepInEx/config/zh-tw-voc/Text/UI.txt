@@ -64,6 +64,7 @@ grab=抓住
 cook=烹飪
 give up=放棄
 lunge=衝刺
+push=推
 
 MOVE=移動
 AIM\n=瞄準\n
@@ -77,6 +78,7 @@ SPRINT / LEAP (WHILE CLIMBING)\n=衝刺/跳躍（攀爬時）\n
 PING LOCATION\n=標記位置\n
 EMOTE\n=表情動作\n
 Apply=套用
+PUSH=推
 
 light lantern=點亮燈籠
 LOC: LIGHT LANTERN=點亮燈籠

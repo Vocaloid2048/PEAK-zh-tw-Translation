@@ -19,6 +19,9 @@ REDUCE CAMERA BOBBING=減少鏡頭晃動
 CLIMBING EXTRA FIELD OF VIEW=攀山時更大視野範圍
 THIS SETTING CAN ONLY BE ADJUSTED ON THE MAIN MENU.=該設定只能在主選單的設定更改
 This setting can only be adjusted on the main menu.=該設定只能在主選單的設定更改
+PHOTOSENSITIVE MODE=光敏感模式
+ENABLE <i>THE LOOKER</i>=允許<i>偵察兵NPC</i>隨機出現
+TEXTURE QUALITY=材質品質
 
 OFF=關閉
 ON=開啟
