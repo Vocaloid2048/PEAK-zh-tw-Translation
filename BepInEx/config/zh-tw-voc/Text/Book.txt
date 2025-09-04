@@ -48,7 +48,7 @@ ALWAYS LEND A HAND!=<size\=45>總是向朋友伸出援手！</size>
 
 	When your hands are empty, reach out to a friend who's mid-climb and help them reach the next ledge safely!=\t當你的雙手空著時，伸手幫助正在攀爬的朋友，讓他們安全到達下一個落腳點！
 
-r:"^(.+) EMPTY-HANDED: HELP UP FRIEND$"=<size\=85%\>空手時按下$1來幫助朋友更容易爬上來</size>
+r:"^(.+) EMPTY-HANDED: HELP UP FRIEND$"=<size\=80%\>空手時按下$1來幫助朋友更容易爬上來</size>
 
 	You can help from below, too! Crouch down and let a fellow scout stand on your head, then jump to give them a boost!=你也可以從下方幫忙！蹲下來讓另一位童軍站在你頭上，然後跳起幫助他爬得更高！
 
@@ -119,7 +119,7 @@ r:"^(.+)If you find a nice place to light a campfire(.+)$"=\t如果你找到一�
 #3#
 EMBRACE THE OCCULT!=接受神秘力量！
 ##	Wuh woh! One of our scouts stepped on a sea urchin and died!!! I was about to get really sad... but one of the other kids touched a weird statue, and brought their friend back to life! \n\n\n\n\n\n\n	Seems like this island bends the rules of mortality itself... how wacky! Perhaps something else interesting might happen if we use a statue when everyone is still alive...##
-r:"^(.+)Wuh woh! One of our scouts stepped on a sea urchin and died!!!(.+)$"=\t<size\=150%\>哇哦！我們的一個朋友踩到海膽死了！本來我都要難過死了……但另一個夥伴摸了那座奇怪的雕像，就把朋友復活了！\n\n\n\n\n\n\n看來這座島打破了死亡的規則……真瘋狂！或許當大家都還活著時，再摸一下那個雕像會發生更有趣的事情……</size>
+r:"^(.+)Wuh woh! One of our scouts stepped on a sea urchin and died!!!(.+)$"=\t<size\=120%\>哇哦！我們的一個朋友踩到海膽死了！本來我都要難過死了……但另一個夥伴摸了那座奇怪的雕像，就把朋友復活了！\n\n\n\n\n\n\n看來這座島打破了死亡的規則……真瘋狂！或許當大家都還活著時，再摸一下那個雕像會發生更有趣的事情……</size>
 r:"^(.+)Seems like this island bends the rules of mortality itself...(.+)$"= 
 
 #4#

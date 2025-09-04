@@ -48,7 +48,7 @@ Climb past the MESA without ever having more than 10% Heat.=在不超過10%熱�
 Shoot across the MESA canyon in a Scout Cannon.=在童軍炮中穿越「台地」峽谷。
 Survive an Antlion attack.=在蟻獅攻擊中生存下來。
 Give in to your hunger.=屈從於你的飢餓。
-Catch a Flying Disc from 100m away.=從100公尺外接住飛碟。
+Catch a Flying Disc from 100m away.=從100公尺外接住飛盤。
 
 
 ##徽章##

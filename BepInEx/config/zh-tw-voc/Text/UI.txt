@@ -124,7 +124,7 @@ r:"^(.+)'s backpack$"=$1的背包
 r:"^carry (.+)$"=背起$1
 r:"^feed to (.+)$"=餵給$1
 r:"^heal (.+)$"=治療$1
-r:"^heat up (.+)$"=送溫暖給$1
+r:"^heat up (.+)$"=為$1取暖
 r:"^drop (.+)$"=丟掉$1
 r:"^use on (.+)$"=用在$1上
 ANCIENT STATUE=古老雕像
@@ -201,14 +201,14 @@ Invite Friends=邀請好麻吉們來玩
 Rope=繩索
 
 ##報告##
-spectating:=正在觀察：
+spectating:=正在旁觀：
 YOURSELF=你自己
 YOUR FRIENDS=朋友提早溜掉了
 LEFT YOU TO DIE=你最後孤獨地倒下了
 DEAD=死亡
 YOU PEAKED=你登頂了！
 
-PROMOTED TO;=晉升為；
+PROMOTED TO:=晉升為：
 NEW FIT!=新造型！
 NEW SASH!=新腰帶！
 NEW LOOK!=新外觀！
@@ -228,3 +228,26 @@ NEXT=下一步
 ##玩家進/出##
 r:"^<color\=#FFB964> (.+)</color><color\=#A0EC64> joined the expedition</color>\n$"=<color\=#FFB964> $1</color><color\=#A0EC64> 加入探險</color>\n
 r:"^<color\=#FFB964> (.+)</color><color\=#FF7373> left the expedition</color>\n$"=<color\=#FFB964>$1<color\=#FF7373> 離開探險</color>\n
+
+##遺漏缺失-感謝悠依 @Yuieii 補充##
+##部分翻譯有作微調##
+OK=好
+TOMB=古墓
+tomb=古墓
+GAME VERSION MISMATCH=遊戲版本不相符
+Host has different game version: [#] while you have [&].=房間主持人使用的版本是[#]，而你的版本是[&]。
+FAILED TO FIND LOBBY=無法找到大廳
+This invite might be out of date.=此邀請可能已過期。
+Failed to fetch lobby data.=無法獲取大廳資訊。
+FAILED TO JOIN LOBBY=無法加入大廳
+FAILED TO CREATE LOBBY=無法創建大廳
+Steam lobby doesn't seem valid.=Steam 大廳似乎無效。
+Close the game, and update the game on steam...=請關閉遊戲，並在 Steam 上更新遊戲...
+Close and update the game.=請關閉並更新遊戲。
+FAILED TO FIND PHOTON ROOM=無法找到 Photon 房間
+DISCONNECTED FROM PHOTON=與 Photon 連線中斷
+You disconnected from Photon, reason: #=你已從 Photon 斷開連接，原因：#
+Failed to connect to Photon Network.=無法連線到 Photon 網路。
+Try to connect again or play in offline mode?=請嘗試重新連線，或以離線模式遊玩？
+TRY AGAIN=請再試一次
+PICKAXE=十字鎬
