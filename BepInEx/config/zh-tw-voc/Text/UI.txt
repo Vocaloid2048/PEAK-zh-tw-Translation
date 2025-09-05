@@ -228,6 +228,8 @@ NEXT=下一步
 ##玩家進/出##
 r:"^<color\=#FFB964> (.+)</color><color\=#A0EC64> joined the expedition</color>\n$"=<color\=#FFB964> $1</color><color\=#A0EC64> 加入探險</color>\n
 r:"^<color\=#FFB964> (.+)</color><color\=#FF7373> left the expedition</color>\n$"=<color\=#FFB964>$1<color\=#FF7373> 離開探險</color>\n
+r:"^(.+) joined the expedition.$"=<color\=#FFB964> $1</color><color\=#A0EC64> 加入探險</color>
+r:"^(.+) left the expedition.$"=<color\=#FFB964>$1<color\=#FF7373> 離開探險</color>
 
 ##遺漏缺失-感謝悠依 @Yuieii 補充##
 ##部分翻譯有作微調##
@@ -235,7 +237,9 @@ OK=好
 TOMB=古墓
 tomb=古墓
 GAME VERSION MISMATCH=遊戲版本不相符
-Host has different game version: [#] while you have [&].=房間主持人使用的版本是[#]，而你的版本是[&]。
+
+##註：本來想説直接讓遊戲自己把佔位符套用在翻譯裏面...##
+r:"^Host has different game version: (.+) while you have (.+).$"=房間主持人使用的版本是$1，而你的版本是$2。
 FAILED TO FIND LOBBY=無法找到大廳
 This invite might be out of date.=此邀請可能已過期。
 Failed to fetch lobby data.=無法獲取大廳資訊。
@@ -246,7 +250,7 @@ Close the game, and update the game on steam...=請關閉遊戲，並在 Steam �
 Close and update the game.=請關閉並更新遊戲。
 FAILED TO FIND PHOTON ROOM=無法找到 Photon 房間
 DISCONNECTED FROM PHOTON=與 Photon 連線中斷
-You disconnected from Photon, reason: #=你已從 Photon 斷開連接，原因：#
+r:"^You disconnected from Photon, reason: (.+)$"=你已從 Photon 斷開連接，原因：$1
 Failed to connect to Photon Network.=無法連線到 Photon 網路。
 Try to connect again or play in offline mode?=請嘗試重新連線，或以離線模式遊玩？
 TRY AGAIN=請再試一次
