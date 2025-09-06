@@ -85,7 +85,7 @@ r:"^	Exploring the wilderness is a dangerous activity that can kill you instantl
 
 Torn Page=被撕掉了的一頁
 TORN PAGE=被撕掉了的一頁
-Dear Diary, bad news!!!\n\n	The ship captain made an oopsy, and we've wound up crashed on this mysterious island! Thankfully, mysterious islands are my specialty.\n\n	With our whole troop working together, we'll reach the top of the PEAK and signal for help in no time!\n\n	In the meantime, I'll take this opportunity to add some additional pages to my famous guidebook.\n\n	<align\=right>-Scoutmaster Myres\n=親愛的日記，壞消息！！！\n\n	船長出了個大錯，我們撞上了這個神秘島嶼！幸好，我相當熟悉如何在神秘島嶼存活下去。\n\n	只要我們整個團隊齊心協力，我們很快就能到達頂峰並發出求救信號！\n\n	與此同時，我將趁此機會為我的著名指南書添加一些額外頁面。\n\n	<align\=right>-童軍領袖邁爾斯\n
+Dear Diary, bad news!!!\n\n	The ship captain made an oopsy, and we've wound up crashed on this mysterious island! Thankfully, mysterious islands are my specialty.\n\n	With our whole troop working together, we'll reach the top of the PEAK and signal for help in no time!\n\n	In the meantime, I'll take this opportunity to add some additional pages to my famous guidebook.\n\n	<align\=right>-Scoutmaster Myres\n=親愛的日記，壞消息！！！\n\n	船長出了個大錯，我們撞上了這個神秘島嶼！幸好，我相當熟悉如何在神秘島嶼存活下去。\n\n	只要我們整個團隊齊心協力，我們很快就能到達山頂並發出求救信號！\n\n	與此同時，我將趁此機會為我的著名指南書添加一些額外頁面。\n\n	<align\=right>-童軍領袖邁爾斯\n
 
 r:"^(.+)JUMP\n$"=按$1跳躍\n
 r:"^(.+)CROUCH$"=按$1蹲下
@@ -125,7 +125,7 @@ r:"^(.+)Seems like this island bends the rules of mortality itself...(.+)$"=
 #4#
 HUDDLE UP!=<size\=85%\>擠在一起！
 ##	As we approach the PEAK, the temperature has begun dropping dramatically. Seeking constant cover is a must, and getting caught out in the open when the wind is strong can be a death sentence.\n\n\n\n\n\n\n\n\n\n\n\n\n	If all else fails, huddling with your friends to share body heat might just save you from an icy grave.##
-r:"^(.+)As we approach the PEAK, the temperature has begun dropping dramatically.(.+)$"=<size\=150%\>\t隨著我們靠近頂峰，氣溫開始急劇下降。必須隨時找掩護，強風中暴露在空曠處簡直是死路一條。\n\n\n\n\n\n\n\n\n\n\n\t如果一切都無效，和朋友們擠在一起分享體溫，或許能救你免於凍死。</size>
+r:"^(.+)As we approach the PEAK, the temperature has begun dropping dramatically.(.+)$"=<size\=150%\>\t隨著我們靠近山頂，氣溫開始急劇下降。必須隨時找掩護，強風中暴露在空曠處簡直是死路一條。\n\n\n\n\n\n\n\n\n\n\n\t如果一切都無效，和朋友們擠在一起分享體溫，或許能救你免於凍死。</size>
 r:"^(.+)If all else fails, huddling with your friends to share body heat might just save you from an icy grave(.+)$"= 
 
 #5#
@@ -144,7 +144,7 @@ r:"^We made it!!(.+)$"=我們成功了！\n\n\t即使沒有領隊的幫忙，我
 
 #?2#
 ##Dear Diary, bad news!!!\n\n	The ship captain made an oopsy, and we've wound up crashed on this mysterious island! Thankfully, mysterious islands are my specialty.\n\n	With our whole troop working together, we'll reach the top of the PEAK and signal for help in no time!\n\n	In the meantime, I'll take this opportunity to add some additional pages to my famous guidebook.\n\n##
-r:"^Dear Diary, bad(.+)$"=親愛的日記：\n\n\t壞消息！船長出了個大錯，我們撞上了這個神秘島嶼！幸好，荒島求生是我的專長。\n\n\t只要我們整個隊伍齊心協力，很快就能登上頂峰並發出求救信號！\n\n\t與此同時，我要趁機為我的著名指南書再添幾頁。\n\n<align\=left>領隊Myres\n
+r:"^Dear Diary, bad(.+)$"=親愛的日記：\n\n\t壞消息！船長出了個大錯，我們撞上了這個神秘島嶼！幸好，荒島求生是我的專長。\n\n\t只要我們整個隊伍齊心協力，很快就能登上山頂並發出求救信號！\n\n\t與此同時，我要趁機為我的著名指南書再添幾頁。\n\n<align\=left>領隊Myres\n
 
 #?3#
 	This is a blank page.\n=空白頁\n
