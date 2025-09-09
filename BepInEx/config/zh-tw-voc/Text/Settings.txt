@@ -27,7 +27,7 @@ OFF=關閉
 ON=開啟
 
 LOBBY MODE=大廳模式
-FRIENDS=所有好友
+OPEN TO FRIENDS=允許好友申請加入
 INVITE ONLY=僅限邀請
 
 ACCESSIBILITY=輔助功能

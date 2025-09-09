@@ -1,3 +1,17 @@
+**<details><summary>v1.0.12-zh_tw(2025/09/09)</summary>**
+
+### 翻譯基於版本 `v1.28.a` (BETA.0.28.d)
+
+### 更新内容
+* 添加了一些設定上的翻譯（色盲模式）
+* 修正部分舊有翻譯、補充Photon相關功能等的翻譯
+* 感謝[悠依](https://github.com/Yuieii)對翻譯提出的更正和建議 ><
+* 因為換了pfp，所以Logo也有更新
+
+![Vocchi - Good](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/vocchi_good.png)
+
+</details>
+
 **<details><summary>v1.0.11-zh_tw(2025/08/29)</summary>**
 
 ### 翻譯基於版本 `v1.27.a` (BETA.0.26.a)

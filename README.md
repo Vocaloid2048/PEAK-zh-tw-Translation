@@ -1,6 +1,6 @@
 ![PEAK_ZH_TW_LOGO](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/Logo.png)
 # PEAK 繁體中文翻譯模組 by Voc-夜芷冰
-![version](https://img.shields.io/badge/Version-1.0.11-pink)
+![version](https://img.shields.io/badge/Version-1.0.12-pink)
 ![PEAK version](https://img.shields.io/badge/PEAK-1.28.a-orange)
 
 ![PEAK version](https://img.shields.io/badge/BETA-0.28.d-purple)
@@ -14,6 +14,7 @@
 - 本模組由 `Coding Band` 的 Voc-夜芷冰 基於 [PEAK Russian Translation](https://thunderstore.io/c/peak/p/RTLC/PEAK_Russian_Translation/) 製作，目前僅在 [Thunderstore](https://thunderstore.io/c/peak/p/Vocaloid2048/PEAK_Traditional_Chinese_Translation/) 和 [GitHub](https://github.com/Vocaloid2048/PEAK-zh-tw-Translation) 發佈
 - 【這是社群項目】歡迎各位對翻譯提供建議/協助~ [詳情在這邊](#️翻譯有問題-也想幫忙添加翻譯)
 - 十分感謝[狐空](#狐空-xof_elttil)大大的協助，簡化TPM、替代字體相關設定，玩家現無需額外設定替代用字體亦可以使用
+- 感謝[悠依](#悠依-Yuieii)大大對翻譯内容優化上提出的建議，讓翻譯更臻完善
 
 ## 🚧請留意！
 - 本模組並非官方製作，部分内容由AI輔助翻譯，或有文法錯漏！<br>
@@ -136,3 +137,7 @@ xxx=xxx
 ### [狐空 (＠XoF_eLtTiL)](https://x.com/XoF_eLtTiL)
 - `UniversalFontPatcher` 的開發者、提供TMP相關技術＆經驗協助
 - 十分感謝大大的協助，簡化TPM、替代字體相關設定，玩家現無需額外設定替代用字體亦可以使用
+
+### [悠依 (＠Yuieii)](https://github.com/Yuieii/)
+- `PeakTcnPatch (ue.Peak.TcnPatch)` 的開發者
+- 感謝大大對翻譯内容優化上提出的建議~
