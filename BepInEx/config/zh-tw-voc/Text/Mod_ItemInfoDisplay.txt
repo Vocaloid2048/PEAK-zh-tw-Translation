@@ -39,7 +39,7 @@ r:"^TRY (.+)THROWING</color> AT A COCONUT\n$"=試試把它$1丟向</color>椰子
 WHILE PLAYING THE BUGLE,\n=當吹響友誼號角時，\n
 
 ##岩釘##
-PLACE A PITON YOU CAN GRAB\nTO=放置一個你可以抓住的岩釘\n
+PLACE A PITON YOU CAN GRAB\nTO<#BFEC1B>REGENERATE STAMINA</color>\n=放置一個你可以抓住的岩釘\n來<#BFEC1B>恢復士氣</color>\n
 
 ##背包##
 DROP TO PLACE ITEMS INSIDE\n=放下背包才可放入物品\n
@@ -101,7 +101,7 @@ r:"^WARP TO (.+)\n$"=傳送到$1\n
 OPEN TO SLOW YOUR DESCENT\n=打開遮陽傘來減緩下降速度\n
 
 ##兵幫飛盤##
-THROW</color> IT\n=把它</color>丟出去\n
+<#FFBD16>THROW</color> IT\n<#FFBD16>THROW</color> AT HEAD TO <#FF5300>BONK</color>\n=把它<#FFBD16>丟出去</color>\n被丟到頭的玩家會<#FF5300>暈倒</color>\n
 
 ##炸藥##
 r:"^EXPLODES</color> FOR UP TO (.+) INJURY</color>\n<#CCCCCC>ADDITIONAL DAMAGE TAKEN IF HELD</color>\n$"=爆炸造成最多$1點傷害\n<#CCCCCC>拿着引爆會受到額外傷害</color>\n
@@ -123,20 +123,30 @@ r:"^<#768E00>STICKS</color> TO YOUR BODY\n\nCAN <#FFBD16>THROW</color> BY USING\
 <#CCCCCC>WHILE EQUIPPED, GRANTS:</color>\n<#D48E00>SHIELD</color> (INVINCIBILITY)\n$"=裝備時，獲得：</color>\n<#D48E00>護盾</color>（無敵狀態）\n
 
 ##烤東西##
-r:"^(.+)BROKEN FROM COOKING</color>$"=拿去烤的話會受損
-r:"^(.+)BREAKS IF COOKED</color>$"=拿去烤的話會壞掉（不能用）
-r:"^(.+)CAN BE COOKED</color>$"=可被烤的
-r:"^(.+)x COOKED</color>$"=烤過的$1個
-r:"^(.+)x COOKED\nCAN BE COOKED</color>$"=烤過的$1個\n可被烤的
+sr:"^(.+)BROKEN FROM COOKING</color>$"=$1拿去烤的話會受損
+sr:"^(.+)BREAKS IF COOKED</color>$"=$1拿去烤的話會壞掉（不能用）
+sr:"^(\d+)CAN BE COOKED</color>$"=$1可被烤的
+sr:"^(.+)x COOKED</color>$"=$1個烤過
+sr:"^(.+)x COOKED\nCAN BE COOKED</color>$"=$1個烤過\n可被烤的
+
+##ProcessAffliction##
+r:"^GAIN</color> (.+)s OF <#BFEC1B>BONUS RUN SPEED</color> OR\nGAIN</color> (.+)s OF <#BFEC1B>BONUS CLIMB SPEED</color>\nAFTERWARDS, <#FF5CA4>GAIN</color> (.+) DROWSY</color>\n$"=獲得</color>$1秒<#BFEC1B>奔跑速度加成</color>或\n獲得</color>$2秒<#BFEC1B>攀爬速度加成</color>\n之後，<#FF5CA4>獲得</color>$3點昏昏欲睡</color>\n
+r:"^GAIN</color> <#BFEC1B>(.+) EXTRA STAMINA</color>\n$"=獲得</color><#BFEC1B>$1額外士氣</color>\n
+r:"^GAIN</color> (.+)s OF <#BFEC1B>INFINITE RUN STAMINA</color> OR\nGAIN</color> (.+)s OF <#BFEC1B>INFINITE CLIMB STAMINA</color>\nAFTERWARDS, (.+)$"=獲得</color>$1秒<#BFEC1B>無限奔跑士氣</color>或\n獲得</color>$2秒<#BFEC1B>無限攀爬士氣</color>\n之後，$3
+r:"^GAIN</color> (.+) (.+)</color>\n$"=獲得</color>$1$2</color>\n r:"^REMOVE</color> (.+) (.+)</color>\n$"=移除</color>$1$2</color>\n
+r:"^GAIN</color> <#FF5CA4>(.+) DROWSY</color> OVER (.+)s\n$"=獲得</color><#FF5CA4>$1昏昏欲睡</color>，持續$2秒\n r:"^REMOVE</color> <#FF5CA4>(.+) DROWSY</color> OVER (.+)s\n$"=移除</color><#FF5CA4>$1昏昏欲睡</color>，持續$2秒\n
+r:"^GAIN</color> <#00BCFF>(.+) COLD</color> OVER (.+)s\n$"=獲得</color><#00BCFF>$1寒冷</color>，持續$2秒\n r:"^REMOVE</color> <#00BCFF>(.+) COLD</color> OVER (.+)s\n$"=移除</color><#00BCFF>$1寒冷</color>，持續$2秒\n
+r:"^CLEAR ALL STATUS</color>, THEN RANDOMIZE\n<#FFBD16>HUNGER</color>, <#BFEC1B>EXTRA STAMINA</color>, <#FF5300>INJURY</color>,\n<#A139FF>POISON</color>, <#00BCFF>COLD</color>, <#C80918>HEAT</color>, <#FF5CA4>DROWSY</color>\n$"=清除所有</color>狀態效果，然後隨機化\n<#FFBD16>飢餓</color>、<#BFEC1B>士氣</color>、<#FF5300>受傷</color>、\n<#A139FF>中毒</color>、<#00BCFF>寒冷</color>、<#C80918>炎熱</color>、<#FF5CA4>昏昏欲睡</color>\n
+r:"^PREVENT <#C80918>HEAT</color> IN MESA'S SUN FOR (.+)s\n$"=在MESA的陽光下防止<#C80918>炎熱</color>，持續$1秒\n
 
 ##通用##
 CAN BE LIT\n=可被點亮\n
 CAN BE PLACED\n=可被放置\n
 CAN BE OPENED\n=可被開啟\n
 CAN BE READ\n=可被閱讀\n
-r:"^YOU <#1B0043>DIE</color> WHEN USED\n$"=用了就<#1B0043>死翹翹</color>了\n
-THROW</color> TO CRACK OPEN\n=丟出</color>後會裂開\n
-THROW</color> AT HEAD TO <#FF5300>BONK</color>\n=丟向玩家頭部會<#FF5300>敲暈</color>\n
+<#DDFFDD>REMOVE</color>=<#DDFFDD>移除</color>
+r:"^(.+)YOU <#1B0043>DIE</color> WHEN USED\n$"=$1用了就<#1B0043>死翹翹</color>了\n
+r:"^(.+)THROW</color> TO CRACK OPEN\n(.+)$"=丟出</color>後會裂開\n$2
 
 ##Prefix / Suffix##
 r:"^(.+)GAIN</color>(.+)$"=$1獲得</color>$2
