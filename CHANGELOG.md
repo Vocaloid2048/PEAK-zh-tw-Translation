@@ -1,3 +1,13 @@
+**<details><summary>v1.0.13-zh_tw(2025/09/25)</summary>**
+
+### 翻譯基於版本 `v1.30.a` (BETA.0.30.f)
+
+### 更新内容
+* PEAK 1.30.a 翻譯更新
+* 附錄 ItemInfoDisplay - 繁體中文版插件 (基於v1.0.8翻譯)
+
+</details>
+
 **<details><summary>v1.0.12-zh_tw(2025/09/09)</summary>**
 
 ### 翻譯基於版本 `v1.28.a` (BETA.0.28.d)
