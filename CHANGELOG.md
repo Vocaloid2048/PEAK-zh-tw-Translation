@@ -4,7 +4,10 @@
 
 ### 更新内容
 * PEAK 1.30.a 翻譯更新
-* 附錄 ItemInfoDisplay - 繁體中文版插件 (基於v1.0.8翻譯)
+* 附錄 ItemInfoDisplay - 繁體中文版插件 (基於v1.0.8翻譯&改寫)
+* 【WARNING】請注意，ItemInfoDisplay 繁體中文版由夜芷冰改寫、編譯和維護，如有任何BUG/問題請**直接聯繫我**
+* 【WARNING】如您已經安裝 ItemInfoDisplay （原版 - 由jkqt編譯和分發），請先移除/停止使用，避免衝突
+* 如您不想使用 ItemInfoDisplay 繁體中文版，按照指引把 `Is Enable ItemInfoDisplay` 改為 `false` 即可
 
 </details>
 

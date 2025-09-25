@@ -10,6 +10,15 @@
 **直接説問題就好！不要只加好友，很大程度會被當作釣魚**
 
 ## 熱門問題
+### 使用 ItemInfoDisplay / 其他模組的繁體中文版！
+- 請先到以下路徑，並開啟 `com.voc.ItemInfoDisplay.cfg` 檔案（不同模組有不同名字）（使用記事本就可）
+  - 路徑：`%appdata%\com.kesomannen.gale\peak\profiles\<你的設定檔, 預設是Default>\BepInEx\config\`
+- 留意 `Is Enable ItemInfoDisplay` 的值（或者寫有該模組名字的）
+  - 預設是 `true` （啟用），如果不想使用，請改為 `false`
+- 如果使用本翻譯版本，**記得要把 ItemInfoDisplay 刪除/屏蔽掉**，否則有機會出現衝突
+- 儲存檔案後，重啟遊戲即可
+- 請注意，ItemInfoDisplay 繁體中文版由夜芷冰改寫、編譯和維護，如有任何BUG/問題請**直接聯繫我**
+
 ### 設定頁選項沒有展示中文字！
 - 已知在v1.22.a出現
 - 目前無解，甚至在不啟動模組下，使用官方的簡體中文翻譯也是沒有展示中文字

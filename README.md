@@ -24,6 +24,14 @@
 - [歡迎fork來翻譯成其他語言，如果能標注出處的話會十分感謝~](I_WANT_TO_FORK.md)
 - [Welcome to fork and translate into other languages.](I_WANT_TO_FORK.md)
 
+### ℹ️有關附帶模組（如ItemInfoDisplay 繁體中文版）
+- 由於透過本模組翻譯方式無法完整翻譯部分模組
+- 故於原作者的允許下，將會附帶了期繁體中文翻譯版本，以方便玩家使用：
+  - ItemInfoDisplay (基於v1.0.8翻譯&改寫)
+- 請注意，以上模組由夜芷冰改寫、編譯和維護，如有任何BUG/問題請**直接聯繫我**
+- 如您已經安裝該模組的原分發版，請先移除/停止使用，避免衝突
+- 如您不想使用該繁體中文版模組，請按照TROUBLESHOOT.md的指引將 `Is Enable XXX` 改為 `false` 即可
+
 ## 💭夜芷冰的呢喃
 ```
 各位安安~ 這裏是寫星鐵app的那個夜芷冰
@@ -47,6 +55,16 @@
 |---|---|
 |![img_passport_origin.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_passport_origin.png)|![img_passport_tpm.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_passport_tpm.png)|
 |![img_location_origin.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_location_origin.png)|![img_location_tpm.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_location_tpm.png)|
+
+|舊版本|[新版本](#銘謝-special-thanks)|
+|---|---|
+|![img_passport_origin.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_passport_origin.png)|![img_passport_tpm.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_passport_tpm.png)|
+|![img_location_origin.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_location_origin.png)|![img_location_tpm.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_location_tpm.png)|
+
+|不啟用附帶模組|[啟用附帶模組](#ℹ️有關附帶模組如iteminfodisplay-繁體中文版)|
+|---|---|
+|![img_peak_iid_origin1.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_peak_iid_origin1.png)|![img_peak_iid_demo1.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_peak_iid_demo1.png)|
+|![img_peak_iid_origin2.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_peak_iid_origin2.png)|![img_peak_iid_demo2.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_peak_iid_demo2.png)|
 
 
 ## 💻如何安裝翻譯模組？
