@@ -49,7 +49,7 @@ Shoot across the MESA canyon in a Scout Cannon.=在童軍炮中穿越「台地�
 Survive an Antlion attack.=在蟻獅攻擊中生存下來。
 Give in to your hunger.=屈從於你的飢餓。
 Catch a Flying Disc from 100m away.=從100公尺外接住飛盤。
-
+Climb past the ALPINE without ever having more than 20% Cold.=在不超過20%寒冷值的情況下攀越「阿爾卑斯山脈」。
 
 ##徽章##
 Beachcomber Badge=海岸探險者徽章
@@ -140,6 +140,7 @@ Resourcefulness Badge=足智多謀徽章
 RESOURCEFULNESS BADGE=足智多謀徽章
 Ultimate Badge=終極徽章
 ULTIMATE BADGE=終極徽章
+BUNDLED UP BADGE=保暖徽章
 
 ##階級##
 Tadpole Scout=蝌蚪童軍

@@ -122,7 +122,7 @@ SCOUTMASTER'S BUGLE=童軍領袖號角
 Warp Compass=傳送羅盤
 WARP COMPASS=傳送羅盤
 Scroll=卷軸
-SCROLL=卷軸
+SCROLL=卷軸/滾動
 Stick=木棍
 STICK=木棍
 Stone=石頭
@@ -197,6 +197,24 @@ Wonderberry=神奇莓果
 WONDERBERRY=神奇莓果
 Bounce Shroom=彈跳蘑菇
 BOUNCE SHROOM=彈跳蘑菇
+
+##REF: https://drive.google.com/file/d/1bnCe3M8Nga5bIQ8b_4_dzP-LVSVhFA8B/view ##
+ROOK=車
+BISHOP=主教
+KNIGHT=馬
+KING=王
+QUEEN=后
+PAWN=兵
+BASKETBALL=籃球
+
+Rook=車
+Bishop=主教
+Knight=馬
+King=王
+Queen=后
+Pawn=兵
+Basketball=籃球
+
 
 ##漿果##
 Green Crispberry=綠色脆莓
