@@ -103,3 +103,6 @@ GAMEPAD STYLE 1=手把風格 1 (XBox)
 GAMEPAD STYLE 2=手把風格 2 (PS)
 GAMEPAD=手把
 CANCEL=取消
+
+##v1.32.a 更新##
+JUMP TO GRAB WALL=跳起時自動捉住牆壁

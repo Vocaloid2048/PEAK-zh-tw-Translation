@@ -1,8 +1,8 @@
 ![PEAK_ZH_TW_LOGO](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/Logo.png)
 # PEAK 繁體中文翻譯模組 by Voc-夜芷冰
 ![version](https://img.shields.io/badge/Version-1.0.13-pink)
-![PEAK version](https://img.shields.io/badge/PEAK-1.30.a-orange)
-![PEAK BETA version](https://img.shields.io/badge/BETA-0.30.f-purple)
+![PEAK version](https://img.shields.io/badge/PEAK-1.32.a-orange)
+![PEAK BETA version](https://img.shields.io/badge/BETA-0.32.a-purple)
 
 ![make-with-love](https://camo.githubusercontent.com/da124fe0d303f3da8682918930b2f99caf16cda69474c01b4c48598d38f71613/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d616b655f776974685f2545322539442541342545462542382538462d7768697465)
 [![繁體中文翻譯模組](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/97d38b2f-ce2b-418e-9492-9f3687c2bf1a.svg)](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/97d38b2f-ce2b-418e-9492-9f3687c2bf1a) + 
