@@ -285,3 +285,17 @@ i miss my wife=我想念我的妻子
 maaaaaaaaybe=或或或或許吧...
 you should ask your friends for help!=你該找朋友幫忙！
 PHOTOBOOTH=拍貼機
+
+##Update - v1.42.a##
+READ=閱讀
+struggle=掙扎
+backflip=後空翻
+cinema=電影院
+crashout=無能狂怒
+shimmy=搖晃
+it's so over=涼拌了
+flex=炫耀
+bully=欺凌
+wave=揮手
+REVIVE?=要復活嗎？
+revive?=要復活嗎？

@@ -314,3 +314,18 @@ Red Prickleberry=紅刺莓
 RED PRICKLEBERRY=紅刺莓
 Gold Prickleberry=金刺莓
 GOLD PRICKLEBERRY=金刺莓
+
+## Update in 1.42.a ##
+CLOUD FUNGUS=雲菇
+Cloud Fungus=雲菇
+RESCUE CLAW=救援爪
+Rescue Claw=救援爪
+PURPLE SHROOMBERRY=紫色菇莓
+Purple Shroomberry=紫色菇莓
+THE BOOK OF BONES=骸骨之書
+The Book of Bones=骸骨之書
+SKELETON=骷髏
+Skeleton=骷髏
+#'S SKELETON=的骷髏
+MANDRAKE=曼德拉草
+Mandrake=曼德拉草

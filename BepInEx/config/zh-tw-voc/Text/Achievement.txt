@@ -50,6 +50,17 @@ Survive an Antlion attack.=在蟻獅攻擊中生存下來。
 Give in to your hunger.=屈從於你的飢餓。
 Catch a Flying Disc from 100m away.=從100公尺外接住飛盤。
 Climb past the ALPINE without ever having more than 20% Cold.=在不超過20%寒冷值的情況下攀越「阿爾卑斯山脈」。
+Climb past the ROOTS.=攀越「巨根森林」。
+Climb past the ROOTS without ever having more than 25% spores.=在不超過25%孢子值的情況下攀越「巨根森林」。
+Escape a spider's web and survive.=從蜘蛛網中逃脫並生存下來。
+Cure yourself from a zombie bite.=在被殭屍咬傷後自行治癒一次。
+Try all 5 types of Shroomberry in a single expedition.=在單次探險中嘗試進食5種不同的菇莓。
+Pull an unconscious friend 30m with the Rescue Claw.=使用救援爪拉動昏迷的好友30公尺。
+Block 100 total damage with the Fortified Milk.=使用強化乳抵禦總共100點傷害。
+Eat 3 Hot Dogs in 5 seconds or less.=在5秒內吃掉3根熱狗。
+Ressurect a friend using unholy means.=使用非正式手段復活一位朋友。
+Bounce up 40m off a mushroom.=從蘑菇上彈跳40公尺高。
+Cook and eat a Mandrake.=烹飪並吃掉曼德拉草。
 
 ##徽章##
 Beachcomber Badge=海岸探險者徽章
@@ -141,6 +152,17 @@ RESOURCEFULNESS BADGE=足智多謀徽章
 Ultimate Badge=終極徽章
 ULTIMATE BADGE=終極徽章
 BUNDLED UP BADGE=保暖徽章
+FORESTRY BADGE=林業徽章
+TREAD LIGHTLY BADGE=凌菇微步徽章
+WEB SECURITY BADGE=「網路」安全徽章
+UNDEAD ENCOUNTER BADGE=不死生物接觸徽章
+ADVANCED MYCOLOGY BADGE=進階真菌學徽章
+DISASTER RESPONSE BADGE=災害應變徽章
+CALCIUM INTAKE BADGE=鈣質攝取徽章
+COMPETITIVE EATING BADGE=大胃王徽章
+APPLIED ESOTERICA BADGE=玄學應用徽章
+MYCOACROBATICS BADGE=真菌雜技徽章
+CRYPTOGASTRONOMY BADGE=秘傳料理徽章
 
 ##階級##
 Tadpole Scout=蝌蚪童軍
