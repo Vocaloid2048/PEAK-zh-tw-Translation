@@ -285,6 +285,7 @@ i miss my wife=我想念我的妻子
 maaaaaaaaybe=或或或或許吧...
 you should ask your friends for help!=你該找朋友幫忙！
 PHOTOBOOTH=拍貼機
+start=開始
 
 ##Update - v1.42.a##
 READ=閱讀
