@@ -58,6 +58,13 @@ THE KI=<size\=100\>岩漿窯
 THE KIL=<size\=100\>岩漿窯洞
 THE KILN=<size\=100\>岩漿窯洞</size>\n<size\=40\>(但我不是可以燒的礦物欸)</size>
 
+##紅杉森林##
+R=<size\=100\>紅
+RO=<size\=100\>紅杉
+ROO=<size\=100\>紅杉森
+ROOT=<size\=100\>紅杉森林
+ROOTS=<size\=100\>紅杉森林</size>\n<size\=40\>(風の強い日は嫌いか？)</size>
+
 P=<size\=100\>山
 PE=<size\=100\>山
 PEA=<size\=100\>山頂
