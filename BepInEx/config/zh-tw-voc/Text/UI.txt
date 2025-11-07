@@ -159,22 +159,22 @@ Controls remapping is not currently supported.\nYou can use Steam Input to remap
 
 ##表情動作##
 
-Salute=敬禮
 salute=敬禮
-Thumbs Up=豎起大拇指
-thumbs up=豎起大拇指
-Think=思考
+thumbs up=讚哦
 think=思考
-No-No=搖頭拒絕
 no-no=搖頭拒絕
-Play Dead=裝死
 play dead=裝死
-Shrug=聳肩
-shrug=聳肩
-Crossed Arms=雙臂交叉
+shrug=窩不知道
 crossed arms=雙臂交叉
-Dance=跳舞
 dance=跳舞
+backflip=後空翻
+cinema=絕·對·電·影
+crashout=無能狂怒
+shimmy=長夜月搖
+it's so over=涼拌了
+flex=健美
+bully=欠扁哦
+wave=揮手
 
 ##道具的形容詞、##
 r:"^(\d+\.\d+)m$"=$1公尺
@@ -290,13 +290,5 @@ start=開始
 ##Update - v1.42.a##
 READ=閱讀
 struggle=掙扎
-backflip=後空翻
-cinema=電影院
-crashout=無能狂怒
-shimmy=搖晃
-it's so over=涼拌了
-flex=炫耀
-bully=欺凌
-wave=揮手
 REVIVE?=要復活嗎？
 revive?=要復活嗎？
