@@ -134,6 +134,7 @@ revive scouts=復活所有朋友
 waiting for all players...=等待所有玩家……
 
 ##請先等待所有朋友到達後再點燃營火 1~20人##
+can't light campfire with friends missing!=請先等待所有朋友到達後再點燃營火！
 r:"^can't light campfire with friends missing!\n\n(.+) (\d+)m\n\n(.+) (\d+)m\n\n(.+) (\d+)m\n\n(.+) (\d+)m\n\n(.+) (\d+)m$"=請先等待所有朋友到達後再點燃營火!\n\n$1 距離營火$2公尺\n\n$3 距離營火$4公尺\n\n$5 距離營火$6公尺\n\n$7 距離營火$8公尺\n\n$9 距離營火$10公尺
 r:"^can't light campfire with friends missing!\n\n(.+) (\d+)m\n\n(.+) (\d+)m\n\n(.+) (\d+)m\n\n(.+) (\d+)m\n\n(.+) (\d+)m\n\n(.+) (\d+)m$"=請先等待所有朋友到達後再點燃營火!\n\n$1 距離營火$2公尺\n\n$3 距離營火$4公尺\n\n$5 距離營火$6公尺\n\n$7 距離營火$8公尺\n\n$9 距離營火$10公尺\n\n$11 距離營火$12公尺
 r:"^can't light campfire with friends missing!\n\n(.+) (\d+)m\n\n(.+) (\d+)m\n\n(.+) (\d+)m\n\n(.+) (\d+)m\n\n(.+) (\d+)m\n\n(.+) (\d+)m\n\n(.+) (\d+)m$"=請先等待所有朋友到達後再點燃營火!\n\n$1 距離營火$2公尺\n\n$3 距離營火$4公尺\n\n$5 距離營火$6公尺\n\n$7 距離營火$8公尺\n\n$9 距離營火$10公尺\n\n$11 距離營火$12公尺\n\n$13 距離營火$14公尺
@@ -200,6 +201,7 @@ Invite Kiosk=邀請櫃位
 INVITE KIOSK=邀請櫃位
 Invite Friends=邀請好麻吉們來玩
 Rope=繩索
+ROPE=繩索
 
 ##報告##
 spectating:=正在旁觀：
@@ -229,8 +231,8 @@ NEXT=下一步
 ##玩家進/出##
 r:"^<color\=#FFB964> (.+)</color><color\=#A0EC64> joined the expedition</color>\n$"=<color\=#FFB964> $1</color><color\=#A0EC64> 加入探險</color>\n
 r:"^<color\=#FFB964> (.+)</color><color\=#FF7373> left the expedition</color>\n$"=<color\=#FFB964>$1<color\=#FF7373> 離開探險</color>\n
-r:"^(.+) joined the expedition.$"=<color\=#FFB964> $1</color><color\=#A0EC64> 加入探險</color>
-r:"^(.+) left the expedition.$"=<color\=#FFB964>$1<color\=#FF7373> 離開探險</color>
+r:"^(.+)joined the expedition.$"=<color\=#FFB964> $1</color><color\=#A0EC64> 加入探險</color>
+r:"^(.+)left the expedition.$"=<color\=#FFB964>$1<color\=#FF7373> 離開探險</color>
 
 ##遺漏缺失-感謝悠依 @Yuieii 補充##
 ##部分翻譯有作微調##
