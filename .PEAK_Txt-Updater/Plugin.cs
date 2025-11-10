@@ -1,5 +1,7 @@
 using BepInEx;
+using BepInEx.Configuration;
 using BepInEx.Logging;
+using HarmonyLib;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -30,16 +32,22 @@ public partial class Plugin : BaseUnityPlugin {
 
     // Default manifest URL: this can be overridden by editing the source or building with a different config
     private const string DefaultManifestUrl = "https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/main/BepInEx/config/zh-tw-voc/Text/manifest.json";
-
     private const string TestMainifestUrl = "https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/test-text-updater/BepInEx/config/zh-tw-voc/Text/manifest.json";
+    private static ConfigEntry<bool> configIsEnablePlugin;
 
     // 取得 BepInEx 的 Logger
     internal static ManualLogSource Log;
 
     private void Awake() {
         Log = Logger;
+        Log.LogInfo("PeakTxtUpdater init - reading config.");
 
-        Log.LogInfo("PEAK TxtUpdater Awake");
+        // Config: Enable Plugin
+        configIsEnablePlugin = ((BaseUnityPlugin)this).Config.Bind<bool>("PeakTxtUpdater", "Is Enable PeakTxtUpdater", true, "若啟用，則允許插件在啟動遊戲時自動更新繁體中文翻譯。");
+
+        // Run updater if enabled
+        if (!configIsEnablePlugin.Value) { Log.LogInfo("PeakTxtUpdater is DISABLED in config.");  return;  }
+
         var task = RunUpdaterAsync(DefaultManifestUrl);
         task.ContinueWith(t => {
             if (t.IsFaulted) {
