@@ -5,7 +5,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
 using System.Security.Cryptography;
-using System.Text.Json;
+using Newtonsoft.Json;
+using System.Threading.Tasks;
 using UnityEngine;
 
 namespace PeakTxtUpdater;
@@ -21,16 +22,52 @@ public partial class Plugin : BaseUnityPlugin {
     // ¨ú±o BepInEx ªº Logger
     internal static ManualLogSource Log;
 
-    private async void Awake() {
+    private void Awake() {
         Log = Logger;
+
         Log.LogInfo("PEAK TxtUpdater Awake");
-        string manifestUrl = TestMainifestUrl;
+        var task = RunUpdaterAsync(DefaultManifestUrl);
+        task.ContinueWith(t => {
+            if (t.IsFaulted) {
+                Log.LogError($"RunUpdaterAsync failed: {t.Exception}");
+            }
+        }, TaskScheduler.Default);
+    }
+    private async Task RunUpdaterAsync(string manifestUrl) {
+        Log.LogInfo("RunUpdaterAsync Task Started");
+        if (Log == null) Log = Logger;
+        Manifest manifest = null;
 
         try {
+            // Fetch manifest from GitHub repo
             Log.LogInfo($"Fetching manifest from {manifestUrl}");
             using var http = new HttpClient();
             var manifestJson = await http.GetStringAsync(manifestUrl);
-            var manifest = JsonSerializer.Deserialize<Manifest>(manifestJson, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+            if (string.IsNullOrEmpty(manifestJson)) {
+                Log.LogWarning("Manifest JSON is empty.");
+                return;
+            }
+
+            // Deserialize manifest
+            try {
+                var settings = new JsonSerializerSettings {
+                    MissingMemberHandling = MissingMemberHandling.Ignore,
+                    NullValueHandling = NullValueHandling.Ignore,
+                    DateParseHandling = DateParseHandling.None
+                };
+                manifest = JsonConvert.DeserializeObject<Manifest>(manifestJson, settings);
+                Log.LogInfo("Manifest deserialized");
+            } catch (JsonException jex) {
+                Log.LogError($"Failed to deserialize manifest: {jex}");
+                
+                if (!string.IsNullOrEmpty(manifestJson)) {
+                    var snippet = manifestJson.Length > 1000 ? manifestJson.Substring(0, 1000) + "..." : manifestJson;
+                    Log.LogError($"Manifest snippet: {snippet}");
+                }
+                return;
+            }
+
             if (manifest == null) {
                 Log.LogWarning("Manifest was empty or could not be deserialized.");
                 return;
@@ -94,6 +131,7 @@ public partial class Plugin : BaseUnityPlugin {
     public class Manifest {
         public string generated_at { get; set; }
         public string @ref { get; set; }
+        public string commit { get; set; }
         public string base_raw_url { get; set; }
         public List<ManifestFile> files { get; set; }
     }

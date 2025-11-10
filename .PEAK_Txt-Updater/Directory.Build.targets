@@ -40,8 +40,7 @@
     <Reference Include="$(ManagedDir)Assembly-CSharp.dll" Private="false" Publicize="true" />
   </ItemGroup>
 
-	<!-- 新增：System.Text.Json -->
 	<ItemGroup>
-		<PackageReference Include="System.Text.Json" Version="6.0.14" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
 	</ItemGroup>
 </Project>
