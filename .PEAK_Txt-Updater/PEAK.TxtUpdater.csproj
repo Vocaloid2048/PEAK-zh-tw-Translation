@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>PEAK.TxtUpdater</AssemblyName>
+    <RootNamespace>PEAK.TxtUpdater</RootNamespace>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Keep references minimal; when building for BepInEx you will need to reference BepInEx and UnityEngine assemblies from your game/BepInEx install -->
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+</Project>

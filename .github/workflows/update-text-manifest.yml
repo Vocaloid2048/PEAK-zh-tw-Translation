@@ -1,0 +1,46 @@
+name: Update Text Manifest
+
+on:
+  push:
+    paths:
+      - 'BepInEx/config/zh-tw-voc/Text/**'
+  workflow_dispatch: {}
+
+jobs:
+  generate-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate manifest.json for Text folder
+        run: |
+          python3 - <<'PY'
+          import os,hashlib,json,sys,datetime
+          root='BepInEx/config/zh-tw-voc/Text'
+          files=[]
+          if not os.path.isdir(root):
+              print('No text dir; exiting')
+              sys.exit(0)
+          for fname in sorted(os.listdir(root)):
+              path=os.path.join(root,fname)
+              if os.path.isfile(path) and fname.lower().endswith('.txt'):
+                  with open(path,'rb') as f:
+                      h=hashlib.sha256(f.read()).hexdigest()
+                  files.append({'name':fname,'path':fname,'sha256':h})
+          manifest={'generated_at':datetime.datetime.utcnow().isoformat()+'Z','ref':os.environ.get('GITHUB_SHA'),'base_raw_url':f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY')}/{os.environ.get('GITHUB_SHA')}/{root}/",'files':files}
+          outpath=os.path.join(root,'manifest.json')
+          with open(outpath,'w') as out:
+              json.dump(manifest,out,indent=2,ensure_ascii=False)
+          print('Wrote',outpath)
+          PY
+
+      - name: Commit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add BepInEx/config/zh-tw-voc/Text/manifest.json
+          git commit -m "chore: update text manifest [skip ci]" || echo "No changes to commit"
+          git push
