@@ -5,9 +5,6 @@ PASSPORT=護照
 Name=姓名
 Passport no.=護照號碼
 Nationality=國籍
-sr:"^v.(\d+).(\d+).(.+)$"=v.$1.$2.$3 (夜芷冰繁中翻譯)
-sr:"^beta.(\d+).(\d+).(.+)$"=beta.$1.$2.$3 (夜芷冰繁中翻譯)
-
 
 ##一堆石頭的沙灘##
 S=<size\=100\>海

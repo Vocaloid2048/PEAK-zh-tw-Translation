@@ -1,11 +1,13 @@
 using BepInEx;
 using BepInEx.Logging;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
 using System.Security.Cryptography;
-using Newtonsoft.Json;
+using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -31,7 +33,7 @@ public partial class Plugin : BaseUnityPlugin {
 
     private const string TestMainifestUrl = "https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/test-text-updater/BepInEx/config/zh-tw-voc/Text/manifest.json";
 
-    // ���o BepInEx �� Logger
+    // 取得 BepInEx 的 Logger
     internal static ManualLogSource Log;
 
     private void Awake() {
@@ -93,10 +95,13 @@ public partial class Plugin : BaseUnityPlugin {
                     string localPath = Path.Combine(localTextDir, file.name);
                     bool needDownload = true;
                     if (File.Exists(localPath)) {
+                        // Exclude Version.txt in this comparison
+                        if (string.Equals(file.name, "Version.txt", StringComparison.OrdinalIgnoreCase)) { needDownload = false; continue; }
+
+                        // Otherwise, compare SHA256
                         var localSha = ComputeFileSha256(localPath);
                         if (string.Equals(localSha, file.sha256, StringComparison.OrdinalIgnoreCase)) {
                             needDownload = false;
-                            Log.LogInfo($"Up-to-date: {file.name}");
                         } else {
                             Log.LogInfo($"Outdated: {file.name} (local {localSha} vs remote {file.sha256})");
                         }
@@ -106,6 +111,7 @@ public partial class Plugin : BaseUnityPlugin {
                         var fileUrl = manifest.base_raw_url?.TrimEnd('/') + "/" + file.path;
                         Log.LogInfo($"Downloading {file.name} from {fileUrl}");
                         var bytes = await http.GetByteArrayAsync(fileUrl);
+
                         // verify
                         var sha = ComputeSha256(bytes);
                         if (!string.Equals(sha, file.sha256, StringComparison.OrdinalIgnoreCase)) {
@@ -121,6 +127,21 @@ public partial class Plugin : BaseUnityPlugin {
                 } catch (Exception exFile) {
                     Log.LogError($"Failed to update {file.name}: {exFile}");
                 }
+            }
+
+            // Finally, write/update Version.txt
+            try {
+                string versionPath = Path.Combine(localTextDir, "Version.txt");
+                string versionContent = $"##Ref: {manifest.@ref}##\n"
+                    +$"##Commit: {manifest.commit}##\n"
+                    +$"##Generated at: {manifest.generated_at}##\n"
+                    +"\n"
+                    +$"sr:\"^v.(\\d+).(\\d+).(.+)$\"=v.$1.$2.$3 (夜芷冰繁中翻譯 - #{manifest.commit.Substring(0,6)})\n"
+                    +$"sr:\"^beta.(\\d+).(\\d+).(.+)$\"=beta.$1.$2.$3 (夜芷冰繁中翻譯 - #{manifest.commit.Substring(0, 6)})\n";
+                File.WriteAllText(versionPath, versionContent, Encoding.UTF8);
+                Log.LogInfo($"Wrote version info to {versionPath}");
+            } catch (Exception exVersion) {
+                Log.LogError($"Failed to write Version.txt: {exVersion}");
             }
         } catch (Exception ex) {
             Log.LogError($"TxtUpdater failed: {ex}");
