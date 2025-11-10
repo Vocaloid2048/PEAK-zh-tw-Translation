@@ -11,6 +11,18 @@ using UnityEngine;
 
 namespace PeakTxtUpdater;
 
+/**
+ * PEAK Text Updater Plugin
+ * 
+ * This BepInEx plugin automatically updates text files for the PEAK game (Gale BepInEx folder)
+ * from a specified GitHub repository manifest.
+ * 
+ * It fetches a JSON manifest that lists files, their paths, and SHA256 hashes,
+ * then downloads and replaces local files if they are missing or outdated.
+ * 
+ * This plugin was developed by Vocaloid2048 with AI help.
+ */
+
 [BepInAutoPlugin]
 public partial class Plugin : BaseUnityPlugin {
 
