@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-10T10:16:22.211989Z",
+  "generated_at": "2025-11-10T11:08:59.643708Z",
   "ref": "main",
-  "commit": "606398351f5dcc9a6c2e9ecc4b1397ab3f0b51af",
+  "commit": "3d5c88fea332346583e4add72e691a3d58ecc482",
   "base_raw_url": "https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/main/BepInEx/config/zh-tw-voc/Text/",
   "files": [
     {
@@ -52,7 +52,7 @@
     {
       "name": "NeedTPMText.txt",
       "path": "NeedTPMText.txt",
-      "sha256": "f2ee1527fe6ef0e456dc295508d21bb42ccb4ba79fafbdfcef6342e8c24a11e7"
+      "sha256": "60ed7207137078f2efea869f1e535bb983525a1125fcc4514b4903a7c880a7ea"
     },
     {
       "name": "Settings.txt",
