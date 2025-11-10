@@ -12,6 +12,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using UnityEngine;
+using static PeakTxtUpdater.Plugin;
 
 namespace PeakTxtUpdater;
 
@@ -48,6 +49,18 @@ public partial class Plugin : BaseUnityPlugin {
         // Run updater if enabled
         if (!configIsEnablePlugin.Value) { Log.LogInfo("PeakTxtUpdater is DISABLED in config.");  return;  }
 
+        // Create Version.txt if not exist
+        string localTextDir = Path.Combine(BepInEx.Paths.ConfigPath, "zh-tw-voc", "Text");
+        Directory.CreateDirectory(localTextDir);
+        string versionPath = Path.Combine(localTextDir, "Version.txt");
+        if (File.Exists(versionPath)) {
+            File.WriteAllText(versionPath,
+                $"sr:\"^v.(\\d+).(\\d+).(.+)$\"=v.$1.$2.$3 (夜芷冰繁中翻譯)\n"
+                    + $"sr:\"^beta.(\\d+).(\\d+).(.+)$\"=beta.$1.$2.$3 (夜芷冰繁中翻譯)\n"
+                , Encoding.UTF8);
+        }
+
+        // Start the updater task
         var task = RunUpdaterAsync(DefaultManifestUrl);
         task.ContinueWith(t => {
             if (t.IsFaulted) {
@@ -98,6 +111,7 @@ public partial class Plugin : BaseUnityPlugin {
             string localTextDir = Path.Combine(BepInEx.Paths.ConfigPath, "zh-tw-voc", "Text");
             Directory.CreateDirectory(localTextDir);
 
+
             foreach (var file in manifest.files ?? new List<ManifestFile>()) {
                 try {
                     string localPath = Path.Combine(localTextDir, file.name);
@@ -137,9 +151,13 @@ public partial class Plugin : BaseUnityPlugin {
                 }
             }
 
-            // Finally, write/update Version.txt
+            // Finally, delete Version.txt if exist, then write/update Version.txt
             try {
                 string versionPath = Path.Combine(localTextDir, "Version.txt");
+                if(File.Exists(versionPath)) {
+                    File.Delete(versionPath);
+                }
+
                 string versionContent = $"##Ref: {manifest.@ref}##\n"
                     +$"##Commit: {manifest.commit}##\n"
                     +$"##Generated at: {manifest.generated_at}##\n"

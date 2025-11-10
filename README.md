@@ -37,6 +37,7 @@
 - 將在啟動遊戲時，自動對比本地翻譯和GitHub庫中的翻譯，並作出更新
 - 如您不想使用該功能，請按照 `TROUBLESHOOT.md` 的指引將 `Is Enable PeakTxtUpdater` 改為 `false` 即可
 - 請留意，在展示遊戲版本號的地方，亦會展示當前翻譯的編號，以便除錯
+- 第一次開遊戲時沒見到編號是正常的，重啟遊戲即可看到
   
 ![img_auto_download_version.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_auto_download_version.png)
 
