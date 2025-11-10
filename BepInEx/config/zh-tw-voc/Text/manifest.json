@@ -1,8 +1,8 @@
 {
-  "generated_at": "2025-11-10T05:35:03.199221Z",
-  "ref": "test-text-updater",
-  "commit": "9e0dd53e0a33a8cf28b1317c354888929989415e",
-  "base_raw_url": "https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/test-text-updater/BepInEx/config/zh-tw-voc/Text/",
+  "generated_at": "2025-11-10T10:16:22.211989Z",
+  "ref": "main",
+  "commit": "606398351f5dcc9a6c2e9ecc4b1397ab3f0b51af",
+  "base_raw_url": "https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/main/BepInEx/config/zh-tw-voc/Text/",
   "files": [
     {
       "name": "Achievement.txt",
