@@ -1,5 +1,9 @@
 name: Update Text Manifest
 
+# Allow the workflow to push updated manifest back to the repo
+permissions:
+  contents: write
+
 on:
   push:
     branches:
@@ -11,12 +15,16 @@ on:
 
 jobs:
   generate-manifest:
+    # avoid running the job when the push was made by the workflow itself (prevents loop)
+    if: ${{ github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # persist the GITHUB_TOKEN credential so git push can use it
+          persist-credentials: true
 
       - name: Generate manifest.json for Text folder
         env:
