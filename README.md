@@ -1,12 +1,12 @@
 ![PEAK_ZH_TW_LOGO](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/Logo.png)
 # PEAK 繁體中文翻譯模組 by Voc-夜芷冰
-![version](https://img.shields.io/badge/Version-1.0.14-pink)
-![PEAK version](https://img.shields.io/badge/PEAK-1.42.a-orange)
-![PEAK BETA version](https://img.shields.io/badge/BETA-1.42.a-purple)
+![version](https://img.shields.io/badge/Version-1.0.15-pink)
+![PEAK version](https://img.shields.io/badge/PEAK-1.43.a-orange)
+![PEAK BETA version](https://img.shields.io/badge/BETA-1.43.a-purple)
 
 ![make-with-love](https://camo.githubusercontent.com/da124fe0d303f3da8682918930b2f99caf16cda69474c01b4c48598d38f71613/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d616b655f776974685f2545322539442541342545462542382538462d7768697465)
 [![繁體中文翻譯模組](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/97d38b2f-ce2b-418e-9492-9f3687c2bf1a.svg)](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/97d38b2f-ce2b-418e-9492-9f3687c2bf1a) + 
-[![ItemInfoDisplay繁體中文](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/9072c1ea-02da-4803-aaf0-6c6cbd55d842.svg)](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/9072c1ea-02da-4803-aaf0-6c6cbd55d842)
+[![ItemInfoDisplay繁體中文](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/9072c1ea-02da-4803-aaf0-6c6cbd55d842.svg)](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/9072c1ea-02da-4803-aaf0-6c6cbd55d842) + [![PeakTxtUpdater](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/b22b4eb0-6e20-479a-a824-8419dbf1d2fe.svg)](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/b22b4eb0-6e20-479a-a824-8419dbf1d2fe)
 
 ## 感謝使用本翻譯模組
 - 如對你有幫助，請給個讚和收藏吧 :D
@@ -31,6 +31,18 @@
 - 請注意，以上模組由夜芷冰改寫、編譯和維護，如有任何BUG/問題請**直接聯繫我**
 - 如您已經安裝該模組的原分發版，請先移除/停止使用，避免衝突
 - 如您不想使用該繁體中文版模組，請按照TROUBLESHOOT.md的指引將 `Is Enable XXX` 改為 `false` 即可
+
+### ℹ️有關自動更新翻譯功能
+- 本模組附帶了一個名為 `PeakTxtUpdater` 的插件（由Voc-夜芷冰製作）
+- 將在啟動遊戲時，自動對比本地翻譯和GitHub庫中的翻譯，並作出更新
+- 如您不想使用該功能，請按照 `TROUBLESHOOT.md` 的指引將 `Is Enable PeakTxtUpdater` 改為 `false` 即可
+- 請留意，在展示遊戲版本號的地方，亦會展示當前翻譯的編號，以便除錯
+  
+![img_auto_download_version.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_auto_download_version.png)
+
+|舊版本|新版本|
+|---|---|
+|![img_auto_download_before.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_auto_download_before.png)|![img_auto_download_after.png](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/_IMG/img_auto_download_after.png)|
 
 ## 💭夜芷冰的呢喃
 ```

@@ -1,3 +1,16 @@
+**<details><summary>v1.0.15-zh_tw(2025/11/10)</summary>**
+
+### 翻譯基於版本 `v1.43.a` (BETA.1.43.a)
+
+### 更新内容
+* 修正表情動作、部分物品翻譯
+* 新增自動更新翻譯插件 `Peak Txt Updater`
+  * 啟動遊戲時會自動檢查並更新翻譯文本
+  * 可在設定中啟用/停用此功能
+  * 詳情請參閱 TROUBLESHOOT.md 中的「我不想自動更新翻譯，怎麼辦？」部分
+
+</details>
+
 **<details><summary>v1.0.14-zh_tw(2025/11/06)</summary>**
 
 ### 翻譯基於版本 `v1.42.a` (BETA.1.42.a)

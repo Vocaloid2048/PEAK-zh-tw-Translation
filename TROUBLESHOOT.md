@@ -19,6 +19,14 @@
 - 儲存檔案後，重啟遊戲即可
 - 請注意，ItemInfoDisplay 繁體中文版由夜芷冰改寫、編譯和維護，如有任何BUG/問題請**直接聯繫我**
 
+### 我不想自動更新翻譯，怎麼辦？
+- 請到以下路徑，並開啟 `PeakTxtUpdater.cfg` 檔案（使用記事本就可）
+  - 路徑：`%appdata%\com.kesomannen.gale\peak\profiles\<你的設定檔, 預設是Default>\BepInEx\config\`
+  - 如果沒有這個檔案，請先啟動一次遊戲，然後關閉
+- 找到 `Is Enable PeakTxtUpdater`
+  - 預設是 `true` （啟用），如果不想使用，請改為 `false`
+  - 儲存檔案後，重啟遊戲即可
+
 ### 設定頁選項沒有展示中文字！
 - 已知在v1.22.a出現
 - 目前無解，甚至在不啟動模組下，使用官方的簡體中文翻譯也是沒有展示中文字
