@@ -1,36 +1,68 @@
-# This is a basic workflow to help you get started with Actions
+name: Update Text Manifest
 
-name: CI
+# Allow the workflow to push updated manifest back to the repo
+permissions:
+  contents: write
 
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
+      - test-text-updater
+    paths:
+      - 'BepInEx/config/zh-tw-voc/Text/**'
+  workflow_dispatch: {}
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  generate-manifest:
+    # avoid running the job when the push was made by the workflow itself (prevents loop)
+    if: ${{ github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # persist the GITHUB_TOKEN credential so git push can use it
+          persist-credentials: true
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Generate manifest.json for Text folder
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_REF: ${{ github.ref }}
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          python3 - <<'PY'
+          import os,hashlib,json,sys,datetime
+          root='BepInEx/config/zh-tw-voc/Text'
+          files=[]
+          if not os.path.isdir(root):
+              print('No text dir; exiting')
+              sys.exit(0)
+          for fname in sorted(os.listdir(root)):
+              path=os.path.join(root,fname)
+              if os.path.isfile(path) and fname.lower().endswith('.txt'):
+                  with open(path,'rb') as f:
+                      h=hashlib.sha256(f.read()).hexdigest()
+                  files.append({'name':fname,'path':fname,'sha256':h})
+          # derive branch name from GITHUB_REF (refs/heads/<branch>)
+          ref=os.environ.get('GITHUB_REF','')
+          branch=ref.split('/')[-1] if ref else 'main'
+          manifest={'generated_at':datetime.datetime.utcnow().isoformat()+'Z','ref':branch,'commit':os.environ.get('GITHUB_SHA'),'base_raw_url':f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY')}/{branch}/BepInEx/config/zh-tw-voc/Text/",'files':files}
+          outpath=os.path.join(root,'manifest.json')
+          with open(outpath,'w') as out:
+              json.dump(manifest,out,indent=2,ensure_ascii=False)
+          print('Wrote',outpath)
+          PY
+
+      - name: Commit manifest back to the same branch
+        env:
+          GITHUB_REF: ${{ github.ref }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BRANCH=${GITHUB_REF#refs/heads/}
+          git add BepInEx/config/zh-tw-voc/Text/manifest.json
+          git commit -m "chore: update text manifest [skip ci]" || echo "No changes to commit"
+          # push manifest back to the same branch that triggered the workflow
+          git push origin HEAD:refs/heads/$BRANCH
