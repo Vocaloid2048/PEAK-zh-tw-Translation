@@ -16,13 +16,14 @@ namespace PEAK.TxtUpdater
         // Default manifest URL: this can be overridden by editing the source or building with a different config
         private const string DefaultManifestUrl = "https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/main/BepInEx/config/zh-tw-voc/Text/manifest.json";
 
+        private const string TestMainifestUrl = "https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/test-text-updater/BepInEx/config/zh-tw-voc/Text/manifest.json";
         // (No-op) keep only the RunUpdateAsync(Logger) implementation below.
 
         public static async Task RunUpdateAsync(Logger logger)
         {
             var log = logger ?? throw new ArgumentNullException(nameof(logger));
 
-            string manifestUrl = DefaultManifestUrl;
+            string manifestUrl = TestMainifestUrl;
 
             try
             {
