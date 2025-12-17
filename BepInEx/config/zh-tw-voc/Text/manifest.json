@@ -1,13 +1,13 @@
 {
-  "generated_at": "2025-11-10T11:08:59.643708Z",
+  "generated_at": "2025-12-17T02:19:17.176772Z",
   "ref": "main",
-  "commit": "3d5c88fea332346583e4add72e691a3d58ecc482",
+  "commit": "d66dfa06b2104594c7bf1807e089efa79de43e31",
   "base_raw_url": "https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/main/BepInEx/config/zh-tw-voc/Text/",
   "files": [
     {
       "name": "Achievement.txt",
       "path": "Achievement.txt",
-      "sha256": "b9ad4c01136b487fbcab89f5de39eb48d959cf1c63b83d11b918a1a1c347f5d5"
+      "sha256": "a435adaaaa36437076fa42a07a6f036df16b76dcb04b587bff826b56b8dc0ca5"
     },
     {
       "name": "Book.txt",
@@ -22,7 +22,7 @@
     {
       "name": "Item.txt",
       "path": "Item.txt",
-      "sha256": "7b14d6de98875a22ebb3e943f2ca14a7448e3c9b5e186f2da7885425a0828768"
+      "sha256": "bad0194810b1196047f6c1fb1e76550896db85f520d45d5a75642e98734a492d"
     },
     {
       "name": "LoadingAndRepeat.txt",
