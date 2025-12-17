@@ -350,3 +350,5 @@ FORTIFIED MILK=強化乳
 SKULL=骷髏頭
 Skull=骷髏頭
 LOC: NAME_SKULL=骷髏頭
+SNOWBALL=雪球
+Snowball=雪球

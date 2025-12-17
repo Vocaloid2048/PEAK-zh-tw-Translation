@@ -58,7 +58,7 @@ Try all 5 types of Shroomberry in a single expedition.=在單次探險中嘗試�
 Pull an unconscious friend 30m with the Rescue Claw.=使用救援爪拉動昏迷的好友30公尺。
 Block 100 total damage with the Fortified Milk.=使用強化乳抵禦總共100點傷害。
 Eat 3 Hot Dogs in 5 seconds or less.=在5秒內吃掉3根熱狗。
-Ressurect a friend using unholy means.=使用非正式手段復活一位朋友。
+Resurrect a friend using unholy means.=使用非正式手段復活一位朋友。
 Bounce up 40m off a mushroom.=從蘑菇上彈跳40公尺高。
 Cook and eat a Mandrake.=烹飪並吃掉曼德拉草。
 
