@@ -352,3 +352,5 @@ Skull=骷髏頭
 LOC: NAME_SKULL=骷髏頭
 SNOWBALL=雪球
 Snowball=雪球
+SNOW PILE=雪堆
+Snow Pile=雪堆

@@ -294,3 +294,9 @@ READ=閱讀
 struggle=掙扎
 REVIVE?=要復活嗎？
 revive?=要復活嗎？
+
+##Update - v1.53.a
+Do you want to kick # from the expedition?=你確定要把 # 踢出小隊嗎？
+YOU WERE KICKED=你被踢出小隊了
+The Troop Leader has kicked you from the expedition.=小隊隊長已將你踢出小隊。
+Leave the expedition?=要離開小隊嗎？
