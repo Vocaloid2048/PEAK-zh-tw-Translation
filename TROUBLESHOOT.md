@@ -10,6 +10,13 @@
 **直接説問題就好！不要只加好友，很大程度會被當作釣魚**
 
 ## 熱門問題
+### 我不想使用模組附帶字體，怎麼辦？
+- 請先關閉遊戲，然後開啟檔案總管，到以下路徑
+  - 路徑：`%appdata%\com.kesomannen.gale\peak\profiles\<你的設定檔, 預設是Default>\BepInEx\config\`
+- 找到 `FontPatcher` 資料夾，然後把它改名為 `FontPatcher_Disable`
+- 儲存後，重啟遊戲即可
+- 若果想使用模組附帶字體，請把 `FontPatcher_Disable` 改回 `FontPatcher`
+
 ### 使用 ItemInfoDisplay / 其他模組的繁體中文版！
 - 請先到以下路徑，並開啟 `com.voc.ItemInfoDisplay.cfg` 檔案（不同模組有不同名字）（使用記事本就可）
   - 路徑：`%appdata%\com.kesomannen.gale\peak\profiles\<你的設定檔, 預設是Default>\BepInEx\config\`

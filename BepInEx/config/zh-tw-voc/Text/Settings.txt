@@ -106,3 +106,6 @@ CANCEL=取消
 
 ##v1.32.a 更新##
 JUMP TO GRAB WALL=跳起時自動捉住牆壁
+
+##Update - v1.60.b - Custom Expeditions - Map Settings##
+ZOMBIE PHOBIA MODE=殭屍恐懼模式

@@ -1,7 +1,7 @@
 ![PEAK_ZH_TW_LOGO](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/Logo.png)
 # PEAK 繁體中文翻譯模組 by Voc-夜芷冰
 ![version](https://img.shields.io/badge/Version-1.0.15-pink)
-![PEAK version](https://img.shields.io/badge/PEAK-1.53.a-orange)
+![PEAK version](https://img.shields.io/badge/PEAK-1.60.b-orange)
 <!-- ![PEAK BETA version](https://img.shields.io/badge/BETA-1.43.a-purple) -->
 
 ![make-with-love](https://camo.githubusercontent.com/da124fe0d303f3da8682918930b2f99caf16cda69474c01b4c48598d38f71613/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d616b655f776974685f2545322539442541342545462542382538462d7768697465)
@@ -23,6 +23,7 @@
 - 目前開放模組翻譯相關貢獻~
 - [歡迎fork來翻譯成其他語言，如果能標注出處的話會十分感謝~](I_WANT_TO_FORK.md)
 - [Welcome to fork and translate into other languages.](I_WANT_TO_FORK.md)
+- 若果不欲使用模組附帶字體，請按照 `TROUBLESHOOT.md` 的指引將 `FontPatcher` 資料夾改名為 `FontPatcher_Disable` 即可
 
 ### ℹ️有關附帶模組（如ItemInfoDisplay 繁體中文版）
 - 由於透過本模組翻譯方式無法完整翻譯部分模組
@@ -30,7 +31,7 @@
   - ItemInfoDisplay (基於v1.0.8翻譯&改寫)
 - 請注意，以上模組由夜芷冰改寫、編譯和維護，如有任何BUG/問題請**直接聯繫我**
 - 如您已經安裝該模組的原分發版，請先移除/停止使用，避免衝突
-- 如您不想使用該繁體中文版模組，請按照TROUBLESHOOT.md的指引將 `Is Enable XXX` 改為 `false` 即可
+- 如您不想使用該繁體中文版模組，請按照 `TROUBLESHOOT.md` 的指引將 `Is Enable XXX` 改為 `false` 即可
 
 ### ℹ️有關自動更新翻譯功能
 - 本模組附帶了一個名為 `PeakTxtUpdater` 的插件（由Voc-夜芷冰製作）
@@ -121,7 +122,8 @@
 ## ✒️翻譯有問題！/ 也想幫忙添加翻譯
 - 各位大大可以到 
   - [Coding Band](https://discord.gg/uXatcbWKv2) 的  [👾｜問題發表｜questions](https://discord.com/channels/880921456903618610/1067563572865024223) 提出
-  - 也歡迎在 [GitHub Repo](https://github.com/Vocaloid2048/PEAK-zh-tw-Translation/) 透過提交 Issues 給予建議 **(先不要PR)**
+  - 也歡迎在 [GitHub Repo](https://github.com/Vocaloid2048/PEAK-zh-tw-Translation/) 透過提交 Issues 給予建議
+  - 如果有翻譯上的PR也是十分歡迎的~
 - 這邊看到後會儘快審視和添加您的翻譯/建議！
 - 為了避免朝令夕改，所以每次更新都會堆積一定量才推出，懇請諒解
 - **如真的很有需要，或者長時間沒收到答覆**，請先加入Discord伺服器，然後在私訊我：`vocaloid2048`

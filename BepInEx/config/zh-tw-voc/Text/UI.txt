@@ -295,8 +295,86 @@ struggle=掙扎
 REVIVE?=要復活嗎？
 revive?=要復活嗎？
 
-##Update - v1.53.a
+##Update - v1.53.a##
 Do you want to kick # from the expedition?=你確定要把 # 踢出小隊嗎？
 YOU WERE KICKED=你被踢出小隊了
 The Troop Leader has kicked you from the expedition.=小隊隊長已將你踢出小隊。
 Leave the expedition?=要離開小隊嗎？
+
+##Update - v1.60.b - Game Join/Resume##
+CONTINUE RUN=繼續探險
+Joining this game will delete your current autosave.<br>Are you sure?=加入這場遊戲將會刪除你目前的自動存檔，<br>你確定嗎？
+Hosting a new game will delete your current autosave.<br>Are you sure?=創建新遊戲將會刪除你目前的自動存檔，<br>你確定嗎？
+YOU WIN=你成功了！
+##Update - v1.60.b - Custom Expeditions - Ticket UI##
+CUSTOM RUN=自定義探險
+CUSTOM OPTIONS=自定義選項
+CUSTOM EXPEDITION=自定義探險
+Customize your PEAK experience.=自定義你的爬山體驗。
+
+##Update - v1.60.b - Custom Expeditions （LEFT-TOP）##
+EXPEDITION=探險
+EXPEDITION TYPE=探險類型
+CLASSIC=經典版本
+MINI RUN BIOME=速通版本生態域設定
+MINI RUN=速通版本
+Climb all the way to the PEAK.=這次來真的，目標是爬到山頂吧！
+Climb a single biome to win.=淺嘗一下，爬完一個生態域就算完成吧。
+Progress towards earning Badges is disabled in Custom Expeditions.=在自定義探險中，將不會獲得/累積任何徽章進度。
+BIOME 1=海邊
+BIOME 2=雨林/紅杉
+BIOME 3=台地/雪山
+BIOME 4=岩漿窯洞
+BIOME 5=生態域 5
+BIOME 6=生態域 6
+BIOME 7=生態域 7
+BIOME 8=生態域 8
+
+STUPID STUFF=新「奇」玩法
+GRAPPLE MODE=鉤鉤模式
+SPEEDY MODE=疾速模式
+KICK MODE=踢人模式
+Replaces your helping hand with a kick.=當伸出援手時，會變成送隊友一腳。
+Everything moves twice as fast!=急急如律令！一切都變成兩倍速了！
+Start with an infinite-use Rescue Claw...but you suck at climbing.=從一開始就擁有能無限使用的救援鉤...但徒手爬山體力會迅速流失。
+
+##Update - v1.60.b - Custom Expeditions （LEFT-BOTTOM）##
+HAZARDS=各種障礙/危險
+JELLYFISH=水母
+URCHINS=海膽
+SPORE BOMBS=孢子炸彈
+BEES=蜜蜂
+RAIN=雨
+ZOMBIES=殭屍
+BEETLES=甲蟲
+SPIDERS=蜘蛛
+
+SPORE CLOUDS=孢子雲
+WIND=風
+GEYSERS=間歇泉
+FLASH BULBS=閃光燈泡
+BLIZZARDS=暴風雪
+TORNADOES=龍捲風
+CACTUS THORNS=仙人掌刺
+
+TUMBLEWEEDS=風滾草
+ANTLIONS=蟻獅
+BLAZING SUN=炙熱的太陽
+THE LAVA RISES=岩漿將會上漲
+THE SCOUTMASTER=童軍領袖
+
+##Update - v1.60.b - Custom Expeditions （CENTER-TOP）##
+NORMAL=一般
+THE FOG RISES=霧氣將會出現
+HUNGER RATE=飢餓速率
+FALL DAMAGE=墜落傷害
+OTHER DAMAGE=其他傷害
+COLD AT NIGHT=寒夜
+ITEM WEIGHT=物品重量
+FLARES AT PEAK=山頂設有信號彈
+CLIMBING STAMINA USAGE=攀爬消耗體力量
+
+##Update - v1.60.b - Custom Expeditions （WHERE？）##
+SPAWN POOL=生成物品池
+GAMEPLAY=遊戲參數
+STAMINA USAGE=體力使用量
