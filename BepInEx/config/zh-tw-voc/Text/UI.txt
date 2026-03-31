@@ -374,7 +374,7 @@ ITEM WEIGHT=物品重量
 FLARES AT PEAK=山頂設有信號彈
 CLIMBING STAMINA USAGE=攀爬消耗體力量
 
-##Update - v1.60.b - Custom Expeditions （WHERE？）##
+##Update - v1.60.b - Custom Expeditions （WHERE ARE THEY？）##
 SPAWN POOL=生成物品池
 GAMEPLAY=遊戲參數
 STAMINA USAGE=體力使用量

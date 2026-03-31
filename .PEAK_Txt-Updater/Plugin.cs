@@ -56,8 +56,8 @@ public partial class Plugin : BaseUnityPlugin {
         if (File.Exists(versionPath)) {
             File.WriteAllText(versionPath,
                 $"sr:\"^v.(\\d+).(\\d+).(.+)$\"=v.$1.$2.$3 (夜芷冰繁中翻譯)\n"
-                    + $"sr:\"^beta.(\\d+).(\\d+).(.+)$\"=beta.$1.$2.$3 (夜芷冰繁中翻譯)\n"+
-                $"sr:\"^v(\\d+).(\\d+).(.+)$\"=v$1.$2.$3 (夜芷冰繁中翻譯)\n"
+                    + $"sr:\"^beta.(\\d+).(\\d+).(.+)$\"=beta.$1.$2.$3 (夜芷冰繁中翻譯)\n"
+                    + $"sr:\"^v(\\d+).(\\d+).(.+)$\"=v$1.$2.$3 (夜芷冰繁中翻譯)\n"
                     + $"sr:\"^beta(\\d+).(\\d+).(.+)$\"=beta$1.$2.$3 (夜芷冰繁中翻譯)\n"
                 , Encoding.UTF8);
         }
@@ -164,9 +164,11 @@ public partial class Plugin : BaseUnityPlugin {
                 string versionContent = $"##Ref: {manifest.@ref}##\n"
                     +$"##Commit: {manifest.commit}##\n"
                     +$"##Generated at: {manifest.generated_at}##\n"
-                    +"\n"
-                    +$"sr:\"^v.(\\d+).(\\d+).(.+)$\"=v.$1.$2.$3 (夜芷冰繁中翻譯 - #{manifest.commit.Substring(0,6)})\n"
-                    +$"sr:\"^beta.(\\d+).(\\d+).(.+)$\"=beta.$1.$2.$3 (夜芷冰繁中翻譯 - #{manifest.commit.Substring(0, 6)})\n";
+                    + "\n"
+                    + $"sr:\"^v.(\\d+).(\\d+).(.+)$\"=v.$1.$2.$3 (夜芷冰繁中翻譯 - #{manifest.commit.Substring(0, 6)})\n"
+                    + $"sr:\"^beta.(\\d+).(\\d+).(.+)$\"=beta.$1.$2.$3 (夜芷冰繁中翻譯 - #{manifest.commit.Substring(0, 6)})\n"
+                    + $"sr:\"^v(\\d+).(\\d+).(.+)$\"=v$1.$2.$3 (夜芷冰繁中翻譯 - #{manifest.commit.Substring(0, 6)})\n"
+                    + $"sr:\"^beta(\\d+).(\\d+).(.+)$\"=beta$1.$2.$3 (夜芷冰繁中翻譯 - #{manifest.commit.Substring(0, 6)})\n";
                 File.WriteAllText(versionPath, versionContent, Encoding.UTF8);
                 Log.LogInfo($"Wrote version info to {versionPath}");
             } catch (Exception exVersion) {
