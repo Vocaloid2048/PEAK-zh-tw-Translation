@@ -56,7 +56,9 @@ public partial class Plugin : BaseUnityPlugin {
         if (File.Exists(versionPath)) {
             File.WriteAllText(versionPath,
                 $"sr:\"^v.(\\d+).(\\d+).(.+)$\"=v.$1.$2.$3 (夜芷冰繁中翻譯)\n"
-                    + $"sr:\"^beta.(\\d+).(\\d+).(.+)$\"=beta.$1.$2.$3 (夜芷冰繁中翻譯)\n"
+                    + $"sr:\"^beta.(\\d+).(\\d+).(.+)$\"=beta.$1.$2.$3 (夜芷冰繁中翻譯)\n"+
+                $"sr:\"^v(\\d+).(\\d+).(.+)$\"=v$1.$2.$3 (夜芷冰繁中翻譯)\n"
+                    + $"sr:\"^beta(\\d+).(\\d+).(.+)$\"=beta$1.$2.$3 (夜芷冰繁中翻譯)\n"
                 , Encoding.UTF8);
         }
 
@@ -68,6 +70,7 @@ public partial class Plugin : BaseUnityPlugin {
             }
         }, TaskScheduler.Default);
     }
+
     private async Task RunUpdaterAsync(string manifestUrl) {
         Log.LogInfo("RunUpdaterAsync Task Started");
         if (Log == null) Log = Logger;

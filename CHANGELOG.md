@@ -1,3 +1,13 @@
+**<details><summary>v1.0.16-zh_tw(2026/03/31)</summary>**
+
+### 翻譯基於版本 `v1.60.b`
+
+### 更新内容
+* 添加自定義探險相關翻譯
+* 修正自動更新翻譯插件 `Peak Txt Updater` 對於版本翻譯
+
+</details>
+
 **<details><summary>v1.0.15-zh_tw(2025/11/10)</summary>**
 
 ### 翻譯基於版本 `v1.43.a` (BETA.1.43.a)

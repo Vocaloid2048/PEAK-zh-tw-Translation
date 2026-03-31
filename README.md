@@ -1,10 +1,10 @@
 ![PEAK_ZH_TW_LOGO](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/Logo.png)
 # PEAK 繁體中文翻譯模組 by Voc-夜芷冰
-![version](https://img.shields.io/badge/Version-1.0.15-pink)
+![version](https://img.shields.io/badge/Version-1.0.16-pink)
 ![PEAK version](https://img.shields.io/badge/PEAK-1.60.b-orange)
 <!-- ![PEAK BETA version](https://img.shields.io/badge/BETA-1.43.a-purple) -->
 
-![make-with-love](https://camo.githubusercontent.com/da124fe0d303f3da8682918930b2f99caf16cda69474c01b4c48598d38f71613/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d616b655f776974685f2545322539442541342545462542382538462d7768697465)
+![make-with-love-and-passion](https://img.shields.io/badge/make%20with_%E2%9D%A4%EF%B8%8F+%F0%9F%94%A5-ffcaa1)
 [![繁體中文翻譯模組](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/97d38b2f-ce2b-418e-9492-9f3687c2bf1a.svg)](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/97d38b2f-ce2b-418e-9492-9f3687c2bf1a) + 
 [![ItemInfoDisplay繁體中文](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/9072c1ea-02da-4803-aaf0-6c6cbd55d842.svg)](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/9072c1ea-02da-4803-aaf0-6c6cbd55d842) + [![PeakTxtUpdater](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/b22b4eb0-6e20-479a-a824-8419dbf1d2fe.svg)](https://wakatime.com/badge/user/ca727ba5-9112-4612-b454-d5e407277a51/project/b22b4eb0-6e20-479a-a824-8419dbf1d2fe)
 
@@ -23,7 +23,7 @@
 - 目前開放模組翻譯相關貢獻~
 - [歡迎fork來翻譯成其他語言，如果能標注出處的話會十分感謝~](I_WANT_TO_FORK.md)
 - [Welcome to fork and translate into other languages.](I_WANT_TO_FORK.md)
-- 若果不欲使用模組附帶字體，請按照 `TROUBLESHOOT.md` 的指引將 `FontPatcher` 資料夾改名為 `FontPatcher_Disable` 即可
+- 若果不欲使用模組附帶字體，請按照 `TROUBLESHOOT.md` "我不想使用模組附帶字體，怎麼辦？" 的指引完成設定即可
 
 ### ℹ️有關附帶模組（如ItemInfoDisplay 繁體中文版）
 - 由於透過本模組翻譯方式無法完整翻譯部分模組
