@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-31T06:52:32.450652Z",
+  "generated_at": "2026-03-31T07:52:54.987669Z",
   "ref": "main",
-  "commit": "8b7d9ea66de52d1ee6bf99ee29094a651a4ad435",
+  "commit": "c9a16d2e7649da07991b4d6b81adac55a9956bf8",
   "base_raw_url": "https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/main/BepInEx/config/zh-tw-voc/Text/",
   "files": [
     {
@@ -62,7 +62,7 @@
     {
       "name": "UI.txt",
       "path": "UI.txt",
-      "sha256": "5f57609165862634f4e200785a8a90c5551f390423bae497bd4343216abe0e30"
+      "sha256": "855fc6c433034504d241b7e39cc9b693d9f92378a21037e5fbc0f3fa1b25ad23"
     }
   ]
 }
