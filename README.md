@@ -1,6 +1,6 @@
 ![PEAK_ZH_TW_LOGO](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/Logo.png)
 # PEAK 繁體中文翻譯模組 by Voc-夜芷冰
-![version](https://img.shields.io/badge/Version-1.0.16-pink)
+![version](https://img.shields.io/badge/Version-1.0.17-pink)
 ![PEAK version](https://img.shields.io/badge/PEAK-1.60.b-orange)
 <!-- ![PEAK BETA version](https://img.shields.io/badge/BETA-1.43.a-purple) -->
 

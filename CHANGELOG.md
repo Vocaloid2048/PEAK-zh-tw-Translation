@@ -1,3 +1,12 @@
+**<details><summary>v1.0.17-zh_tw(2026/04/01)</summary>**
+
+### 翻譯基於版本 `v1.60.b`
+
+### 更新内容
+* 針對Thunderstore上載要求，修正了v1.0.16中翻譯更新插件 `Peak Txt Updater` 的更新文件列表，避免未列出的下載和更新。
+
+</details>
+
 **<details><summary>v1.0.16-zh_tw(2026/03/31)</summary>**
 
 ### 翻譯基於版本 `v1.60.b`

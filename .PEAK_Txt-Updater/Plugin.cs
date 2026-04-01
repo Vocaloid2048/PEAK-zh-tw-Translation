@@ -36,6 +36,21 @@ public partial class Plugin : BaseUnityPlugin {
     private const string TestMainifestUrl = "https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/test-text-updater/BepInEx/config/zh-tw-voc/Text/manifest.json";
     private static ConfigEntry<bool> configIsEnablePlugin;
 
+    private static string[] updateFilesNameList = new string[] {
+        "Achievement.txt",
+        "Book.txt",
+        "Challenge.txt",
+        "Item.txt",
+        "LoadingAndRepeat.txt",
+        "NeedTPMText.txt",
+        "Settings.txt",
+        "UI.txt",
+
+        "Mod_Glizzy.txt",
+        "Mod_MoreAscents.txt",
+        "Mod_PEAK_Invitation_Mod.txt",
+        "Mod_PEAK_Save_Manager.txt"
+    };
     // 取得 BepInEx 的 Logger
     internal static ManualLogSource Log;
 
@@ -116,6 +131,8 @@ public partial class Plugin : BaseUnityPlugin {
 
 
             foreach (var file in manifest.files ?? new List<ManifestFile>()) {
+                if (Array.IndexOf(updateFilesNameList, file.name) == -1) continue;
+
                 try {
                     string localPath = Path.Combine(localTextDir, file.name);
                     bool needDownload = true;
