@@ -7,62 +7,62 @@ Passport no.=護照號碼
 Nationality=國籍
 
 ##一堆石頭的沙灘##
-S=<size\=100\>海
-SH=<size\=100\>海
-SHO=<size\=100\>海邊
-SHOR=<size\=100\>海邊
-SHORE=<size\=100\>海邊</size>\n<size\=40\>(一堆石頭的沙灘)</size>
+S=<size\=100%\>海
+SH=<size\=100%\>海
+SHO=<size\=100%\>海邊
+SHOR=<size\=100%\>海邊
+SHORE=<size\=100%\>海邊</size>\n<size\=40%\>(一堆石頭的沙灘)</size>
 
 ##毒霧雨林##
-T=<size\=100\>熱
-TR=<size\=100\>熱
-TRO=<size\=100\>熱帶
-TROP=<size\=100\>熱帶雨
-TROPI=<size\=100\>熱帶雨
-TROPIC=<size\=100\>熱帶雨林
-TROPICS=<size\=100\>熱帶雨林</size>\n<size\=40\>(毒霧雨林?!)</size>
+T=<size\=100%\>熱
+TR=<size\=100%\>熱
+TRO=<size\=100%\>熱帶
+TROP=<size\=100%\>熱帶雨
+TROPI=<size\=100%\>熱帶雨
+TROPIC=<size\=100%\>熱帶雨林
+TROPICS=<size\=100%\>熱帶雨林</size>\n<size\=40%\>(毒霧雨林?!)</size>
 
 ##極寒之巔##
-A=<size\=100\>阿
-AL=<size\=100\>阿爾
-ALP=<size\=100\>阿爾卑
-ALPI=<size\=100\>阿爾卑斯
-ALPIN=<size\=100\>阿爾卑斯山
-ALPINE=<size\=100\>阿爾卑斯山脈</size>\n<size\=40\>(極寒之巔)</size>
+A=<size\=100%\>阿
+AL=<size\=100%\>阿爾
+ALP=<size\=100%\>阿爾卑
+ALPI=<size\=100%\>阿爾卑斯
+ALPIN=<size\=100%\>阿爾卑斯山
+ALPINE=<size\=100%\>阿爾卑斯山脈</size>\n<size\=40%\>(極寒之巔)</size>
 
 ##沙漠##
-M=<size\=100\>台
-ME=<size\=100\>台
-MES=<size\=100\>台地
-MESA=<size\=100\>台地</size>\n<size\=40\>(烈日下沙地)</size>
+M=<size\=100%\>台
+ME=<size\=100%\>台
+MES=<size\=100%\>台地
+MESA=<size\=100%\>台地</size>\n<size\=40%\>(烈日下沙地)</size>
 
 ##大型火鍋##
-C=<size\=100\>炎
-CA=<size\=100\>炎
-CAL=<size\=100\>炎石
-CALD=<size\=100\>炎石柱
-CALDE=<size\=100\>炎石柱
-CALDER=<size\=100\>炎石柱地
-CALDERA=<size\=100\>炎石柱地</size>\n<size\=40\>(大型火鍋)</size>
+C=<size\=100%\>炎
+CA=<size\=100%\>炎
+CAL=<size\=100%\>炎石
+CALD=<size\=100%\>炎石柱
+CALDE=<size\=100%\>炎石柱
+CALDER=<size\=100%\>炎石柱地
+CALDERA=<size\=100%\>炎石柱地</size>\n<size\=40%\>(大型火鍋)</size>
 
 ##岩漿窯洞##
-T=<size\=100\>岩
-TH=<size\=100\>岩
-THE=<size\=100\>岩漿
-THE =<size\=100\>岩漿
-THE K=<size\=100\>岩漿窯
-THE KI=<size\=100\>岩漿窯
-THE KIL=<size\=100\>岩漿窯洞
-THE KILN=<size\=100\>岩漿窯洞</size>\n<size\=40\>(但我不是可以燒的礦物欸)</size>
+T=<size\=100%\>岩
+TH=<size\=100%\>岩
+THE=<size\=100%\>岩漿
+THE =<size\=100%\>岩漿
+THE K=<size\=100%\>岩漿窯
+THE KI=<size\=100%\>岩漿窯
+THE KIL=<size\=100%\>岩漿窯洞
+THE KILN=<size\=100%\>岩漿窯洞</size>\n<size\=40%\>(但我不是可以燒的礦物欸)</size>
 
 ##紅杉森林##
-R=<size\=100\>紅
-RO=<size\=100\>紅杉
-ROO=<size\=100\>紅杉森
-ROOT=<size\=100\>紅杉森林
-ROOTS=<size\=100\>紅杉森林</size>\n<size\=40\>(風の強い日は嫌いか？)</size>
+R=<size\=100%\>紅
+RO=<size\=100%\>紅杉
+ROO=<size\=100%\>紅杉森
+ROOT=<size\=100%\>紅杉森林
+ROOTS=<size\=100%\>紅杉森林</size>\n<size\=40%\>(風の強い日は嫌いか？)</size>
 
-P=<size\=100\>山
-PE=<size\=100\>山
-PEA=<size\=100\>山頂
-PEAK=<size\=100\>山頂</size>\n<size\=40\>(完結了?)</size>
+P=<size\=100%\>山
+PE=<size\=100%\>山
+PEA=<size\=100%\>山頂
+PEAK=<size\=100%\>山頂</size>\n<size\=40%\>(完結了?)</size>
