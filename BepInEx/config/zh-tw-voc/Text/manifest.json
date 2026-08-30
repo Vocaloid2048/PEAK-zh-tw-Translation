@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-30T09:57:32.111157Z",
+  "generated_at": "2026-08-30T11:27:20.432451Z",
   "ref": "main",
-  "commit": "fbe466c9a401357bd0b37df756d1bf5a147f5c4c",
+  "commit": "a9e54850937194898717bfb75e166f4f0295a658",
   "base_raw_url": "https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/main/BepInEx/config/zh-tw-voc/Text/",
   "files": [
     {
       "name": "Achievement.txt",
       "path": "Achievement.txt",
-      "sha256": "a435adaaaa36437076fa42a07a6f036df16b76dcb04b587bff826b56b8dc0ca5"
+      "sha256": "37a131fb345e70240d9041a47eb433e8c40b3109b40952faaecfd7ae12048bc5"
     },
     {
       "name": "Book.txt",
       "path": "Book.txt",
-      "sha256": "53e38a3478534ea684184ba41ba0211096c8cb998fe4a373f90f400e4bde4e80"
+      "sha256": "98f5881d98103c28a27a184473c6822e140362a6868730f6b8dfd58ccb632b8b"
     },
     {
       "name": "Challenge.txt",
@@ -22,12 +22,12 @@
     {
       "name": "Item.txt",
       "path": "Item.txt",
-      "sha256": "5735858451b02d6d9ae39e7ac522a9062792089f3b01c14a64d4a3a9c1bfe527"
+      "sha256": "5a98f9ca9e42e552275c7dc35dce6b13440ebfdf989bc5c5d1b53eecfd6b8301"
     },
     {
       "name": "LoadingAndRepeat.txt",
       "path": "LoadingAndRepeat.txt",
-      "sha256": "6904de32067633881853646bc3116602d1fb1b084231facdd782f5e80f90cec0"
+      "sha256": "a6d2de5ed573d9038bcabff09eb71d7ff3777ea68b5ddfc8ff30e3c77446d225"
     },
     {
       "name": "Mod_Glizzy.txt",
@@ -52,17 +52,17 @@
     {
       "name": "NeedTPMText.txt",
       "path": "NeedTPMText.txt",
-      "sha256": "dfe54b71879f5e237ea04e2c5323527bdfa50772162540235c7f681c0f7683e6"
+      "sha256": "94de677bdf28c596080c888ceef9cb9cfcb6c21cfaf2a4d22b92542c3a343ff6"
     },
     {
       "name": "Settings.txt",
       "path": "Settings.txt",
-      "sha256": "e185193ba51aacb51e03fec0024d7f54754d78a50905a6bf704ade3349c6ca8c"
+      "sha256": "8f34963d80dd92477ae2381065fd7a1d0908d68f6522440dd13a258be639289e"
     },
     {
       "name": "UI.txt",
       "path": "UI.txt",
-      "sha256": "855fc6c433034504d241b7e39cc9b693d9f92378a21037e5fbc0f3fa1b25ad23"
+      "sha256": "d5c72638d7857d8b29557df75b169a771959fdac9ebfbf22934eb91dad820e1d"
     }
   ]
 }
