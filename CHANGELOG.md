@@ -1,3 +1,17 @@
+**<details><summary>v1.0.18-zh_tw(2026/08/30)</summary>**
+
+### 翻譯基於版本 `v2.3.a`
+
+### 更新内容
+* [Merged](https://github.com/Vocaloid2048/PEAK-zh-tw-Translation/pull/4) Issue #3, special thanks to [SmallLoOwO](https://github.com/SmallLoOwO)
+
+* 由於官方在 v2.x 時推出了官方繁體中文版本，本模組亦已經完成使命
+* `版本 1.0.18` （本次）爲 **最後一次** 手動大型更新，預計之後將不再定期維護繁體中文翻譯
+* （不過依然歡迎PR & Issues，會視情況決定是否合併）
+* （由於只有翻譯更新，更新後的翻譯檔案將會自動下載，所以不會再開新版本上傳到Thunderstore）
+
+</details>
+
 **<details><summary>v1.0.17-zh_tw(2026/04/01)</summary>**
 
 ### 翻譯基於版本 `v1.60.b`

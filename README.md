@@ -1,7 +1,7 @@
 ![PEAK_ZH_TW_LOGO](https://raw.githubusercontent.com/Vocaloid2048/PEAK-zh-tw-Translation/refs/heads/main/Logo.png)
 # PEAK 繁體中文翻譯模組 by Voc-夜芷冰
-![version](https://img.shields.io/badge/Version-1.0.17-pink)
-![PEAK version](https://img.shields.io/badge/PEAK-1.60.b-orange)
+![version](https://img.shields.io/badge/Version-1.0.18-pink)
+![PEAK version](https://img.shields.io/badge/PEAK-2.3.a-orange)
 <!-- ![PEAK BETA version](https://img.shields.io/badge/BETA-1.43.a-purple) -->
 
 ![make-with-love-and-passion](https://img.shields.io/badge/make%20with_%E2%9D%A4%EF%B8%8F+%F0%9F%94%A5-ffcaa1)
@@ -18,6 +18,14 @@
 - 感謝[jkqt](#jkqt)允許本模組分發&附錄 [ItemInfoDisplay](https://github.com/jkqt/ItemInfoDisplay/) 的繁體中文翻譯版本
 
 ## 🚧請留意！
+> 由於官方在 v2.x 時推出了官方繁體中文版本，本模組亦已經完成使命
+> `版本 1.0.18` 爲 **最後一次** 手動大型更新，預計之後將不再定期維護繁體中文翻譯
+> （不過依然歡迎PR & Issues，會視情況決定是否合併）
+> （如有需要的話，可以在Discord伺服器中 @Vocaloid2048 提醒哦）
+> 
+> 倘若該版本只有翻譯更新，開啓遊戲後將會自動下載更新翻譯檔案
+> 所以不會在Thunderstore開新版本，留意左上角的翻譯 Commit ID 即可
+
 - 本模組並非官方製作，部分内容由AI輔助翻譯，或有文法錯漏！<br>
 - 目前繼續施工優化翻譯中 （超怕不小心用了粵語語法）
 - 目前開放模組翻譯相關貢獻~
