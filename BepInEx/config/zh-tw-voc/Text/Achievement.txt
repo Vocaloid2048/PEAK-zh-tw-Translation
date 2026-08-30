@@ -181,3 +181,40 @@ Wolf Scout=狼童軍
 WOLF SCOUT=狼童軍
 Goat Scout=山羊童軍
 GOAT SCOUT=山羊童軍
+
+
+
+##Update - v2.3.a ##
+Read the Scoutmaster’s final journal entry.=閱讀童軍大師日誌的最後一篇文章。
+START CURSED. GAIN EXTRA CURSE WITH EACH REVIVAL.=一開始受詛咒。每次復活都會獲得額外詛咒效果。
+YOU MUST FREE THE SCOUTMASTER'S SOUL TO WIN.=你必須解放童軍大師的靈魂才能獲勝。
+Free the Scoutmaster's soul.=解放童軍大師的靈魂。
+Consume The Early Worm.=吃掉早起的蟲兒。
+Climb past the GLOOM.=越過憂愁地。
+Heal over 75% damage at once by using the Ritual Dagger.=使用儀式匕首一口氣治療超過 75% 傷害。
+Ring 5 Belltowers in the GLOOM in a single expedition.=在一次探險中於憂愁地敲響 5 座鐘塔。
+Remove 10 arrows from yourself in a single expedition.=在一次探險中從自己身上拔掉 10 支箭。
+Climb past THE CITADEL without being hit by any traps.=在不被任何陷阱擊中的情況下越過教堂。
+Open 2 Clown Luggage in a single expedition.=在一次探險中開啟 2 個小丑行李箱。
+Burn up the Big Ghost in the GLOOM.=在憂愁地燒掉巨大幽靈。
+Fly 100m with the Glider without touching the ground.=在不觸碰地面的情況下使用滑翔翼飛行 100 公尺。
+Read the Scoutmaster’s final journal entry.=閱讀童軍大師日誌的最後一篇文章。
+
+RULE ZERO BADGE=零號守則徽章
+WELL RESTED BADGE=睡飽飽徽章
+WANDERER BADGE=遊蕩者徽章
+LAST RESORT BADGE=最終手段徽章
+BELLRINGER BADGE=響鈴人徽章
+ARCHERY BADGE=箭術徽章
+MEDIEVAL HISTORY BADGE=中世紀歷史徽章
+JESTER BADGE=小丑徽章
+EXORCIST BADGE=驅魔徽章
+HANG GLIDING BADGE=滑翔翼徽章
+
+SCOUT'S GENEROSITY=童軍的慷慨
+SCOUT'S AMBITION=童軍的抱負
+SCOUT'S INITIATIVE=童軍的自發
+SCOUT’S TENACITY=童軍的堅持
+SCOUTMASTER'S SOUL=童軍大師的靈魂
+SCOUT’S HONOR=童軍的榮譽
+THE EARLY WORM=早起的蟲兒

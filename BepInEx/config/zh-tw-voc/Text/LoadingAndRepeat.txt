@@ -49,13 +49,14 @@ LOADING...LOADING...LOADING...LOADING..=載入中...載入中...載入中...載�
 LOADING...LOADING...LOADING...LOADING...=載入中...載入中...載入中...載入中...
 LOADING...LOADING...LOADING...LOADING...L=載入中...載入中...載入中...載入中...載
 LOADING...LOADING...LOADING...LOADING...LO=載入中...載入中...載入中...載入中...載入
-LOADING...LOADING...LOADING...LOADING...LOA=載入中...載入中...載入中...載入中...載入中
-LOADING...LOADING...LOADING...LOADING...LOAD=載入中...載入中...載入中...載入中...載入中
+LOADING...LOADING...LOADING...LOADING...LOA=載入中...載入中...載入中...載入中...載入
+LOADING...LOADING...LOADING...LOADING...LOAD=載入中...載入中...載入中...載入中...載入
 LOADING...LOADING...LOADING...LOADING...LOADI=載入中...載入中...載入中...載入中...載入中
 LOADING...LOADING...LOADING...LOADING...LOADIN=載入中...載入中...載入中...載入中...載入中
-LOADING...LOADING...LOADING...LOADING...LOADING=載入中...載入中...載入中...載入中...載入中.
-LOADING...LOADING...LOADING...LOADING...LOADING=載入中...載入中...載入中...載入中...載入中..
-LOADING...LOADING...LOADING...LOADING...LOADING=載入中...載入中...載入中...載入中...載入中...
+LOADING...LOADING...LOADING...LOADING...LOADING=載入中...載入中...載入中...載入中...載入中
+LOADING...LOADING...LOADING...LOADING...LOADING.=載入中...載入中...載入中...載入中...載入中.
+LOADING...LOADING...LOADING...LOADING...LOADING..=載入中...載入中...載入中...載入中...載入中..
+LOADING...LOADING...LOADING...LOADING...LOADING...=載入中...載入中...載入中...載入中...載入中...
 
 D=第
 DA=第
@@ -115,3 +116,15 @@ r:"^Day (\d+)$"=第$1天
 
 THE FOG RISES...=起霧了……
 THE LAVA RISES...=岩漿升起了……
+
+##Update - v2.3.a ##
+One=一
+Two=二
+Three=三
+Four=四
+Five=五
+Six=六
+Seven=七
+Eight=八
+Nine=九
+Ten=十

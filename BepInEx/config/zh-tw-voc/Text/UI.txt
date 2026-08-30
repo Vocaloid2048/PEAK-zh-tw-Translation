@@ -378,3 +378,100 @@ CLIMBING STAMINA USAGE=攀爬消耗體力量
 SPAWN POOL=生成物品池
 GAMEPLAY=遊戲參數
 STAMINA USAGE=體力使用量
+
+##Update - v2.3.a ##
+And all previous modifiers.=以及前面的所有難度變化。
+<size\=125%>YOUR FRIENDS<br>LEFT YOU TO DIE=<size\=125%>你的好友<br>對你見死不救
+YOUR BODY WAS<br><size\=125%>NEVER FOUND=你的遺體<br><size\=125%>就此下落不明
+r:"^(.+) UNLOCKED$"=已解鎖$1
+PUSH TO MUTE=按鍵靜音
+Gem Activated=啟動寶石
+Gem Deactivated=關閉寶石
+
+r:"^(.+) is now the Troop Leader\.$"=$1已成為隊長。
+You are the Troop Leader.=你已成為隊長。
+Leave the expedition?<br><br>You can continue from the last campfire.=要離開探險嗎？<br><br>可以從最後的營火繼續探險。
+
+FLYTRAPS=捕蠅草
+CONDORS=禿鷹
+RING=敲響
+FROG LEGS=青蛙腿
+SLEEPY GLOOM=催眠愁霧
+FROG TONGUES=青蛙舌頭
+TRICKY RAVENS=狡猾渡鴉
+BIG GHOST=巨大幽靈
+ARROW TRAPS=弓箭陷阱
+ETC TRAPS=有的沒的陷阱
+
+GLOOM=憂愁地
+THE CITADEL=教堂
+THE GLOOM RISES...=愁霧升起...
+JOIN GAME SESSION=加入遊戲
+
+SPECIFY A ROOM CODE=設定房間密碼
+Invalid Room Code.=無效的房間密碼。
+The code is too short.=密碼過短。
+ENTER ROOM CODE=輸入房間密碼
+JOIN GAME=加入遊戲
+JOIN=加入
+FAILED TO JOIN ROOM=無法加入房間
+Lobby is currently full.=大廳已滿。
+Unknown error occurred.=發生未知錯誤。
+Lobby does not exist.=大廳不存在。
+HIDE ROOM CODE=隱藏大廳密碼
+BLOCKLIST=封鎖清單
+BLOCKED PLAYERS=已封鎖的玩家
+You have not blocked any players yet...=你還沒封鎖任何玩家...
+Failed to connect to Photon Network=無法連接至 Photon 網路
+
+PLATFORM BLOCKLIST=平台封鎖清單
+INFO=資訊
+SELECT ACTION=選擇動作
+ACTIONS=動作
+BLOCK=封鎖
+UNBLOCK=解除封鎖
+r:"^Do you want to block (.+)\?$"=要封鎖$1嗎？
+r:"^Do you want to unblock (.+)\?$"=要解除封鎖$1嗎？
+REPORT=檢舉
+Report Player=檢舉玩家
+r:"^Report (.+)\?$"=要檢舉$1嗎？
+Are you sure?=你確定要這麼做嗎？
+INVALID REPORT FORM=檢舉表單無效
+Your report is insufficient. Please add more info.=檢舉資訊不足。請加入更多資訊。
+Hate Speech=仇恨言論
+Verbal Abuse=言語暴力
+Threats=威脅
+Scamming=詐騙
+Griefing=破壞遊戲體驗
+Cheating=作弊
+Offensive Name=冒犯性的名稱
+Leaving / AFK=中途離開 / 掛機
+SEND=傳送
+MUTE=靜音
+UNMUTE=解除靜音
+YES=是
+CROSSPLAY=跨平台遊玩
+Can't play with players from other platforms.=無法與其他平台的玩家遊玩。
+Kicking players...=正在踢出玩家...
+Leaving the game...=正在離開遊戲...
+COPY CODE=複製密碼
+
+THE GLOOM RISES=愁霧升起
+NADIR=地深冥淵
+THE LOST SOULS ARE RISING...=迷失的亡魂再次甦醒...
+SCOUTMASTER=童軍大師
+SOUL LINK MODE=靈魂連結模式
+Any damage received is split among all scouts.=任何受到的傷害都會均分在所有童軍身上。
+
+r:"^wear<br>(.+)$"=穿上<br>$1
+r:"^(.+)'s (.+)$"=$1的$2
+r:"^convert<br>(.+)<br>to fuel$"=將<br>$1<br>轉化為燃料
+wear backpack=揹上背包
+ask=問問題
+SACRIFICE #targetchar=獻祭#targetchar
+activate=啟動
+add fuel<br>(need item)=添加燃料<br>(需要物品)
+activate on #targetchar=在#targetchar身上啟動
+bestow=授予
+ENTER=進入
+GATE=傳送門

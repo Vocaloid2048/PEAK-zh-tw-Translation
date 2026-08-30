@@ -109,3 +109,6 @@ JUMP TO GRAB WALL=跳起時自動捉住牆壁
 
 ##Update - v1.60.b - Custom Expeditions - Map Settings##
 ZOMBIE PHOBIA MODE=殭屍恐懼模式
+
+##Update - v2.3.a ##
+Reset=重設

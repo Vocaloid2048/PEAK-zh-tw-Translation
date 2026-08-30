@@ -62,6 +62,24 @@ ROO=<size\=100%\>紅杉森
 ROOT=<size\=100%\>紅杉森林
 ROOTS=<size\=100%\>紅杉森林</size>\n<size\=40%\>(風の強い日は嫌いか？)</size>
 
+G=<size\=100%\>憂
+GL=<size\=100%\>憂
+GLO=<size\=100%\>憂愁
+GLOO=<size\=100%\>憂愁
+GLOOM=<size\=100%\>憂愁地</size>
+
+T=<size\=100%\>教
+TH=<size\=100%\>教
+THE=<size\=100%\>教
+THE =<size\=100%\>教
+THE C=<size\=100%\>教
+THE CI=<size\=100%\>教
+THE CIT=<size\=100%\>教堂
+THE CITA=<size\=100%\>教堂
+THE CITAD=<size\=100%\>教堂
+THE CITADE=<size\=100%\>教堂
+THE CITADEL=<size\=100%\>教堂</size>
+
 P=<size\=100%\>山
 PE=<size\=100%\>山
 PEA=<size\=100%\>山頂

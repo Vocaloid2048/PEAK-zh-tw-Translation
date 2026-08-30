@@ -148,3 +148,39 @@ r:"^Dear Diary, bad(.+)$"=親愛的日記：\n\n\t壞消息！船長出了個大
 
 #?3#
 	This is a blank page.\n=空白頁\n
+
+##Update - v2.3.a ##
+RULE=守則
+[JUMP]JUMP=[JUMP] 跳躍
+An effective scout keeps an eye on their <color\=#0f7f00>Stamina Bar</color> at all times. If it runs out, you'll be temporarily unable to run, jump, and most importantly, climb. <br><br>	Worst case scenario, you could fall off the mountain to your death, which is the worst thing to fall off to!=技術嫻熟的童軍會隨時注意自己的<color\=#0f7f00>體力條</color>。如果體力條空了，你就會暫時無法奔跑、跳躍，以及最重要的：無法攀爬。<br><br>	在最糟糕的情況下，你甚至還會掉下山摔死，那可說是掉下去後最糟糕的情況了！
+As you make your way through the untamed wilderness, it's inevitable that you'll get some scratches and bumps.<br><br>	The more hurt you get, the less <color\=#0f7f00>Stamina</color> you'll have to run and climb, so tend to your injuries as soon as possible with a bandage or a healing herb!=穿越野蠻的荒野時，難免會受點傷。<br><br>	你受到的傷越多，你用來奔跑或攀爬的<color\=#0f7f00>體力</color>就會越少，務必及時使用繃帶或治療藥草來治療你的傷勢！
+<BR><SIZE\=30>(ACTUALLY, DON'T!)=<BR><SIZE\=30>(開玩笑的，請不要！)
+Getting hurt isn't the only way for your <color\=#0f7f00>Stamina</color> to go downhill fast. As you climb, you'll find yourself experiencing <color\=#b58200>Hunger</color>, for which 10/10 experts recommend eating food.<br><br>	Be cautious of eating plants from the wilderness! They could poison you and really mess up your day. If you have the option, choose a packaged snack from a corporation you trust!=不只有受傷會讓你的<color\=#0f7f00>體力</color>快速下降。在你攀爬時，你會發現自己開始出現<color\=#b58200>飢餓感</color>，10 位專家中有 10 位會建議你去吃點東西。<br><br>	但在吃下野外的植物時千萬要小心！它們可能會讓你中毒，讓你一整天都不好受。如果可以的話，請選擇可靠品牌的包裝食物！
+Putting a backpack on is a great way to carry additional items, which can make the difference between life and death!<br><br>	HOWEVER, the more <color\=#61380a>Weight</color> you carry, the less stamina you'll have to climb! An experienced scout knows to pack everything they need... and nothing more!=揹上背包可以讓你有效地攜帶更多物品，這可是你生死存亡的關鍵！<br><br>	不過呢，你攜帶的<color\=#61380a>重量</color>越重，用來攀爬的體力就會變得越少！經驗老到的童軍都知道只需要帶著必要之物...其他的都別拿了！
+In a survival situation, one of the worst things that can happen is getting separated from the group. <br><br>	Maintain constant communication whenever possible, and point out your next route in advance to avoid leaving a friend behind!=在求生時，最糟糕的情況之一就是和大家走散。<br><br>	請盡可能保持溝通，事先指出你的前進路線，以免將好友拋在身後！
+Exploring the wilderness is a dangerous activity that can kill you instantly - but so is everything in this world worth doing, like falling in love.<br><br>	Never forget to be a good steward towards our beautiful world, and once again, never forget:=野外探索是一項很危險的活動，可能會讓你瞬間喪命，但世間值得去做的所有事又何嘗不是如此呢？例如墜入愛河就是。<br><br>	面對這個美麗的世界時千萬要保持謹慎，最後再提醒一次，永遠別忘了：
+BONUS RULE=額外守則
+Mushrooms can be a valuable source of nutrition in the wilderness. But watch out!! Some of them can kill you, or even make you poop your pants.<br><br>	There's always a way to tell the poisonous ones apart, though. Here's just one example!=在野外，蘑菇是很珍貴的營養來源。但也要小心！！有些蘑菇可能會要了你的命，甚至會讓你拉在褲子上。<br><br>	不過呢，有些方法可以辨別蘑菇是否有毒。下面就是其中一個例子！
+If you find a nice place to light a campfire, make sure to bring your friends close by first! The fire brings something even better than heat and cooked food... and that's motivation!=如果你發現一個適合點燃營火的地點，記得先讓你的好友過來！火焰不只可以讓你保暖和烹飪食物...更可以給你繼續前進的動力！
+Wuh woh! One of our scouts stepped on a sea urchin and died!!! I was about to get really sad... but one of the other kids touched a weird statue, and brought their friend back to life!=糟糕！其中一位童軍踩到海膽後死掉了！！！我本來準備要難過了...但其他孩子碰了某個奇怪的雕像後，他們的朋友就復活了！
+Seems like this island bends the rules of mortality itself... how wacky! Perhaps something else interesting might happen if we use a statue when everyone is still alive...=這座小島似乎改變了生死的規則...真是古怪！如果在大家都還活著時使用雕像，或許會發生什麼有趣的事...
+As we approach the PEAK, the temperature has begun dropping dramatically. Seeking constant cover is a must, and getting caught out in the open when the wind is strong can be a death sentence.=隨著我們接近山頂，溫度也開始大幅下滑。時不時就必須尋找遮蔽，在開闊處遭遇強風還可能會令你喪生。
+If all else fails, huddling with your friends to share body heat might just save you from an icy grave.=如果沒有其他方法，可以與好友蜷縮在一起來分享體溫，或許能讓你免於凍死。
+I saw such a pretty sight... a beautiful moon-shaped fruit, surrounded by fireflies...<br><br>	I feel so relaxed now... maybe a nap wouldn't be so bad...=我看到了某個好漂亮的東西...一種美麗的月亮形水果，旁邊圍繞著螢火蟲...<br><br>	我感覺好放鬆...或許睡個一覺也不是什麼壞事...
+I had such a wonderful nap, but when I woke up the rest of the troop was gone!<br><br>	I'm sure they're just around the corner. They wouldn't be so foolish as to break <color\=red>Rule 0</color> just because I needed a little lie-down!=我睡了很棒的一覺，但醒來後發現大家都不見了！<br><br>	他們一定沒有走遠。他們絕不會只因為我需要稍微躺一下，就傻到違反了 <color\=red>0 號守則</color>吧！
+We made it!!<br><br>Even without our scoutmaster's help, we managed to get rescued!<br><br>SněžnýPerník managed to make it up first.<br>Zedorfska made it out without a scratch.<br>CaptainBear was injured but in great spirits.<br>Squdel & Kirpich are a little bruised. Good thing they had each other!<br>Ronokopl kept the team fed and safe.<br><br>Mr. Myres, if you're reading this... We couldn't find you!! I'm sorry!=我們成功了！！<br><br>即使沒有童軍大師的幫助，我們也成功獲救了！<br><br>雪薑餅率先登頂。<br>澤多夫斯卡也毫髮無傷地完成攀登。<br>熊熊隊長受傷了，但精神不錯。<br>史奎德爾和基爾皮奇有幾處瘀青。但幸好他們有彼此互助！<br>羅諾科普讓團隊填飽肚子，平安無事。<br><br>邁爾斯老師，如果你看到這個...我們找不到你！！我很抱歉！
+BEAT THE HEAT!=戰勝酷暑！
+At first, I was excited to get my tan on in this desert? but it's way too hot to be out in the sun for long! I started getting burned almost instantly!!!=我一開始還很期待可以在沙漠裡曬出完美膚色，但這裡實在是太熱了，根本沒辦法在太陽底下待太久！我幾乎馬上就曬傷了！！！
+Better stay in the shade, or wait to move until nightfall? but finding an umbrella or something would be even better.=最好是可以待在陰影之中，或是等到夜晚再動身。不過，如果可以找到一把傘之類的就更好了。
+HOLD YOUR BREATH...=屏住呼吸...
+This may be the freakiest place we've found so far... just breathing around here makes my lungs itchy.=這裡或許是我們遇過最詭異的地方了...光是呼吸就讓我的肺好癢。
+The mushrooms seem to subtly move on their own. Something tells me if anyone succumbs to their spores, it might be a fate worse than death...=這些蘑菇似乎會自己悄悄移動。我的預感告訴我，萬一有人碰到了它們的孢子，下場或許會比死掉還悽慘...
+POISON IS BAD!=中毒不好！
+In this jungle, everything seems to be out to get us! Just touching some of these plants causes painful, itchy sores.=這座叢林裡的所有東西似乎都想要我們的命！光是碰到某些植物就會讓你又痛又癢又痠！
+But don't worry! If you don't have an antidote on hand, certain herbs growing on the mountain can help you deal with poison, too!=但也別擔心！如果你手邊沒有解毒劑，山上生長的某些藥草也能幫你治療中毒！
+OUT OF THE FRYING PAN...=火不單行...
+This is getting ridiculous! A single misstep, and I'll be a crispy scoutmaster! Did the rest of the troop really make it through this?=真是越來越誇張了！要是踩漏了一腳，我這童軍大師就會變得又焦又脆！其他隊員真的成功通過這裡了嗎？
+On the bright side, I might not even need a campfire to make a home-cooked meal here...=往好處想，如果我想在這裡烹飪一些家常料理，連生營火的功夫都省了...
+KEEP YOUR HEAD UP!=別睡著了！
+Something about this special fog is making me sleepy... I've gotta remember to get some fresh air, or it could be lights out!=這片特殊的霧讓我好想睡覺...我得記得呼吸一些新鮮空氣，不然一定會昏睡過去！
+It looks like these towers have magical flame in them that burns the fog away. If only I could take some of it with me...=這些高塔裡面似乎有某種魔法火焰可以驅散這片霧。要是我能想辦法把火帶在身邊...
